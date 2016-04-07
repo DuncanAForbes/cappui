@@ -1,0 +1,35 @@
+# Site settings
+title: Cappui | We Craft Software Into Great Products.
+email: daf@famoi.com
+description: Cappui's an experimental technology lab that builds commercially viable ventures focused on financial technology (FinTech) and decentralised blockchain applications, plus various other small micro-projects.
+url: "http://cappui.com" # the base hostname & protocol for your site
+twitter_username: CappuiLabs
+port: 5000
+
+# Build settings
+markdown: redcarpet
+permalink: /:title
+
+gems:
+  - jekyll-sitemap
+  - jekyll-assets
+
+#Default settings
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      author: Duncan Alistair Forbes
+      layout: "post"
+      category: progamming
+
+
+
+assets:
+  compress:
+    css: sass
+    js: uglifier
+
+

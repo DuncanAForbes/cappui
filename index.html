@@ -1,0 +1,129 @@
+---
+layout: default
+---
+
+    <section class="home-hero">
+          <div class="container">
+              <div class="row">
+                 <div class="col-md-6 col-md-push-6">
+                        <h3>We Craft Software Into Great Products.</h3>
+                          <p>As a technology lab crafting pragmatic solutions into companies to compete in global markets. With a social mission to achieve greater global commercial / end-user transparency. To help maximise operational agility, reputation and growth within businesses or enterprises.</p>
+                  </div> <!-- col-md-6 col-md-push-6 -->
+
+                  <div class="col-md-6 col-md-pull-6 middle">
+                   
+                    {% for h in site.data.images %}
+                      {% if h.home_image == "header_network" %}
+                     <img src="{{ h.href }}" title="{{ h.home_image }}">
+                      {% endif %}
+                    {% endfor %}
+
+                </div> <!-- col-md-6 col-md-pull-6 middle -->
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section> <!-- home-hero -->
+
+
+    <section  id="cappui-architect" class="cappui-architect" >
+        <div class="container">
+           <div class="row">
+            <div class="col-md-6 col-md-push-6 middle">
+                  {% for h in site.data.images %}
+                    {% if h.home_image == "archi_infinite" %}
+                   <img src="{{ h.href }}" title="{{ h.home_image }}" >
+                    {% endif %}
+                  {% endfor %}
+            </div> <!-- col-md-6 -->
+             <div class="col-md-6 col-md-pull-6">
+                <h2>
+                Architecting Products and Building Companies.
+                Designed for Global Markets. 
+                With Infinite Possibilities.</h2>
+                
+                <p>Our products are designed to be built into pioneering technology companies that may challenge and compete within global markets. Enforcing greater information accessibility and company transparency. With a focus on supply chain infrastructure, financial data, energy and company reputation systems.</p>
+                
+                <a href="/products-cappui-company-technology-reasearch-development-idea-lab/" class="btn btn-ghost btn-accent btn-large"  >Discover what we are making</a>
+
+            </div> <!-- col-md-6 -->
+          </div> <!-- row -->
+        </div> <!-- container -->
+    </section> <!-- #cappui-architect .cappui-architect -->
+
+   
+
+    <section  id="cappui-design-thinking" class="cappui-design-thinking">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-6 col-md-push-1" >
+                
+                <h2>We craft products designed to 
+                  challenge and create new experiences for end-users.</h2>
+            
+            </div> <!-- col-md-6 col-md-push-1 -->
+            <div class="col-md-4 col-md-push-1">
+                
+                <p>We craft products where the experience is designed to challenge the end-user's status quo and the way that they think and live. Engineering something original that moulds future generations of buisness.</p>
+                
+                <a href="/customer-experience-engineering/" class="btn-home btn-ghost btn-accent btn-large">Discover Our Design Principles</a>
+
+            </div> <!-- col-md-4 col-md-push-1 -->
+         </div> <!-- row -->
+       </div> <!-- container -->
+    </section> <!-- #cappui-design-thinking .cappui-design-thinking -->
+
+
+
+    <section  id="cappui-modern-development" class="cappui-modern-development">
+        <div class="container">
+           <div class="row">
+              <div class="col-md-6 middle" >
+                  
+
+                  {% for h in site.data.images %}
+                    {% if h.home_image == "tech_strategy" %}
+                   <img src="{{ h.href }}" title="{{ h.home_image }}" >
+                    {% endif %}
+                  {% endfor %}
+
+
+              </div> <!-- col-md-6 -->               
+              <div class="col-md-6" >
+
+                  <h2>We employ technology strategy into product development. Focusing on emerging technologies and always thinking towards the future.</h2>
+
+                  <p>At the heart of Cappui we're always supporting the latest in emerging technolgies. After all as a technology lab it requires us to continually  be testing new technolgies. And seeing how they could be applied to real life commercial use cases. From hypothesis to working ideas.</p>
+                  
+                  <a href="/modern-application-development/" class="btn btn-ghost btn-accent btn-large" >Discover Our Development Principles</a>
+
+            
+              </div> <!-- col-md-6 -->               
+           </div> <!-- row -->
+           
+          <hr></hr>
+     
+         <div class="row">
+            <div class="col-md-6 col-md-push-6 middle">
+                  
+                  {% for h in site.data.images %}
+                    {% if h.home_image == "transparent" %}
+                   <img src="{{ h.href }}" title="{{ h.home_image }}" >
+                    {% endif %}
+                  {% endfor %}                
+
+           
+            </div> <!-- col-md-6 col-md-push-6 middle -->
+            <div class="col-md-6 col-md-pull-6" >
+                
+                <h2>We're On A Mission To Create Greater Openness Within Business</h2>
+               
+                <p>Goverments and regulators are pushing for companies of all sizes to become more open with their end-users and they products they sell to them. It is therefore fast becoming more important for information to be made easily accessible by end-users buying food, electronics, valuable goods to pharamceticals.</p>
+
+                <a href="/committed-building-a-transparent-world/" class="btn btn-ghost btn-accent btn-large" style="text-align: right;"  >Discover Cappui's Open Mission</a>
+
+            </div>  <!-- col-md-6 col-md-pull-6 -->
+         </div> <!-- raw -->
+       </div> <!-- container -->
+    </section> <!-- cappui-transparency -->
+ 
+
+

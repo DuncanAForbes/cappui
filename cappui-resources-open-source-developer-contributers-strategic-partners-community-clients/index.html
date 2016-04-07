@@ -1,0 +1,172 @@
+---
+layout: default
+---
+
+    <section  id="about" class="cappui-about section-padding">
+        <div class="container">
+           <div class="row">
+              <div class="col-md-8 col-md-push-2">
+ 
+                <h1 class="h2-blue">Resources For Friends, Partners and Developers.</h1>
+                
+                 <h2>We've created a selection of useful resources for those interested in contributing to our open source projects and media or corporate partners looking to use our branding or promote us. And for those wonderful supportive friends the Cappui Journal and Monthly Digest.</h2>
+                 
+                 <img src="//s3-eu-west-1.amazonaws.com/cappui-labs/cappui-about.png">
+                               
+              </div>
+          </div>
+    </section>
+
+
+       <section  id="cappui-resources" class="cappui-resources">
+        <div class="container">
+
+          <hr></hr>
+
+           <div class="row">
+              <div class="col-md-6 middle" >
+                  
+
+                    {% for s in site.data.images %}
+                      {% if s.resources_image == "senryaku" %}
+                     <img src="{{ s.href }}" title="{{ s.resources_image }}" >
+                      {% endif %}
+                    {% endfor %}    
+
+
+              </div> <!-- col-md-6 -->               
+              <div class="col-md-6" >
+
+                  <h2>Senrayku of Cappui</h2>
+
+                  <p>The Senrayku of Cappui is the core principles of Cappui. And are the philosophies by which we stand-by during our software development process.</p>
+                  
+                  <a href="/senryaku-of-cappui/" class="btn btn-ghost btn-accent btn-large" >Discover More</a>
+
+            
+              </div> <!-- col-md-6 -->               
+           </div> <!-- row -->
+           
+          <hr></hr>
+     
+         <div class="row">
+            <div class="col-md-6 col-md-push-6 middle">
+                  
+                  {% for s in site.data.images %}
+                    {% if s.resources_image == "slack" %}
+                   <img src="{{ s.href }}" title="{{ s.resources_image }}" >
+                    {% endif %}
+                  {% endfor %}      
+           
+            </div> <!-- col-md-6 col-md-push-6 middle -->
+            <div class="col-md-6 col-md-pull-6" >
+                
+                <h2>Developer Slack Community</h2>
+               
+                <p>Our developer slack community is for those interested in contributing to Cappui’s Opensource product development. We would be delighted to have you join.</p>
+
+                <a href="//slack.cappui.com" class="btn btn-ghost btn-accent btn-large" target="_blank" style="text-align: right;"  >Join The Community</a>
+
+            </div>  <!-- col-md-6 col-md-pull-6 -->
+         </div> <!-- row -->
+
+         <hr></hr>
+
+           <div class="row">
+              <div class="col-md-6 middle" >
+                   
+                 {% for d in site.data.images %}
+                    {% if d.resources_image == "digest" %}
+                   <img src="{{ d.href }}" title="{{ d.resources_image }}" >
+                    {% endif %}
+                  {% endfor %}       
+
+
+              </div> <!-- col-md-6 -->               
+              <div class="col-md-6" >
+
+                  <h2>Cappui Monthly Digest</h2>
+
+                  <p>Cappui’s monthly digest is an easily digestible roundup of tidbits sharing great new software/apps, technology strategies, podcasts and occasional product updates of ours.</p>
+                  
+                  <a href="/modern-application-development/" class="btn btn-ghost btn-accent btn-large" >Discover Our Development Principles</a>
+
+            
+              </div> <!-- col-md-6 -->               
+           </div> <!-- row -->
+           
+          <hr></hr>
+     
+         <div class="row">
+            <div class="col-md-6 col-md-push-6 middle">
+                  
+                 {% for d in site.data.images %}
+                    {% if d.resources_image == "digest" %}
+                   <img src="{{ d.href }}" title="{{ d.resources_image }}" >
+                    {% endif %}
+                  {% endfor %}               
+
+           
+            </div> <!-- col-md-6 col-md-push-6 middle -->
+            <div class="col-md-6 col-md-pull-6" >
+                
+                <h2>We've Writing Our First Whitepaper</h2>
+               
+                <p>Cappui’s monthly digest is an easily digestible roundup of tidbits sharing great new software/apps, technology strategies, podcasts and occasional product updates of ours.</p>
+
+                <a href="/customer-experience-engineering/" class="btn btn-ghost btn-accent btn-large" style="text-align: right;"  >Stay Notfied</a>
+
+            </div>  <!-- col-md-6 col-md-pull-6 -->
+         </div> <!-- row -->
+
+
+         <hr></hr>
+
+           <div class="row">
+              <div class="col-md-6 middle" >
+                  
+                   {% for m in site.data.images %}
+                      {% if m.resources_image == "medium" %}
+                     <img src="{{ m.href }}" title="{{ m.resources_image }}" >
+                      {% endif %}
+                    {% endfor %}   
+
+              </div> <!-- col-md-6 -->               
+              <div class="col-md-6" >
+
+                  <h2>Medium.com Journal</h2>
+
+                  <p>We recently started Medium.com blog to express our ideas and discuss core issues or strategic development experiences. As well offering the odd code tutorial.</p>
+                  
+                  <a href="/modern-application-development/" class="btn btn-ghost btn-accent btn-large" >Dip In An Read</a>
+
+            
+              </div> <!-- col-md-6 -->               
+           </div> <!-- row -->
+           
+          <hr></hr>
+     
+         <div class="row">
+            <div class="col-md-6 col-md-push-6 middle">
+                  
+                <img src="//s3-eu-west-1.amazonaws.com/cappui-labs/spacing.png" alt="" title="" class="fluidbox__thumb" style="opacity: 1;">             
+
+           
+            </div> <!-- col-md-6 col-md-push-6 middle -->
+            <div class="col-md-6 col-md-pull-6" >
+                
+                <h2>Branding Guidelines</h2>
+               
+                <p>We recently started Medium.com blog to express our ideas and discuss core issues or strategic development experiences. As well offering the odd code tutorial.</p>
+
+                <a href="/customer-experience-engineering/" class="btn btn-ghost btn-accent btn-large" style="text-align: right;"  >Discover Cappui's Open Mission</a>
+
+            </div>  <!-- col-md-6 col-md-pull-6 -->
+         </div> <!-- row -->
+
+       </div> <!-- container -->
+    </section> <!-- cappui-transparency -->
+
+   
+
+

@@ -1,0 +1,39 @@
+{% capture location %}{{ page.url | split: '/' }}{% endcapture %}
+    <!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+        <section class="navigation">
+            <header>
+                <div class="header-content">
+                    
+                    {% for n in site.data.images %}
+                      {% if n.nav_logo == "nav_logo" %}
+                     <a href="/" class="logo" alt="Famoi Logo"><img src="{{ n.href }}" title="{{ n.nav_image }}" ></a>
+                      {% endif %}
+                    {% endfor %}
+
+                    <div class="header-nav">
+                        <nav>
+
+                            <ul class="member-actions">
+                               
+                                <!-- Display the top level navigation here -->
+                                {% for nav in site.data.navhead %}
+                                      <li><a href="{{ nav.href }}">{{ nav.title }}</a></li>
+                                {% endfor %}
+                                      <li><a href="/senryaku-of-cappui/">Senrayku</a>
+                                      <li><a href="/about-cappui-technology-innovation-lab-modern-software-development-user-experience-design">About</a>
+                                      <li><a href="/cappui-resources-open-source-developer-contributers-strategic-partners-community-clients">Resources</a>
+                                      <li><a href="/#letspeak" class="letspeak help"><img src="//s3-eu-west-1.amazonaws.com/cappui-labs/help.png" ></a>
+
+                            </ul> <!-- /member-actions -->
+                       
+                        </nav>
+                    </div> <!-- /header-nav -->
+                    <div class="navicon">
+                        <a class="nav-toggle" href="#"><span></span></a>
+                    </div> <!-- /navicon -->
+                </div> <!-- /header-content -->
+            </header> 
+        </section> <!-- /navigation -->      

@@ -1,0 +1,264 @@
+# Website wide images
+
+
+# Navigation Logo
+
+- nav_logo: nav_logo
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/cappui-logo-web.png
+
+- nav_logo: famoi_nav_logo
+  href: //s3-eu-west-1.amazonaws.com/famoi/Famoi-web.png
+
+
+
+# Home
+
+- home_image: header_network
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/cappui-home-header.png
+
+- home_image: archi_infinite
+  href:	//s3-eu-west-1.amazonaws.com/cappui-labs/architect-software.png
+
+- home_image: transparent
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/transparency.png
+
+- home_image: tech_strategy
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/cappui-tech-strategy.png
+
+- home_image: recruit
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/face-careers.png
+
+
+
+# Products
+
+- products_image: famoi
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/infinite-loop.png
+
+- products_image: bevare
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/infinite-loop.png
+
+
+
+# Products --> Famoi
+
+- products_famoi_image: famoi-sm-logo
+  href: https://s3-eu-west-1.amazonaws.com/famoi/Famoi-web.png
+
+- products_famoi_image: chain
+  href: //s3-eu-west-1.amazonaws.com/famoi/images/Famoi-Network-Diagram-Two.png
+
+- products_famoi_image: alert
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/products/Famoi-Alert.png
+
+
+- products_famoi_image: certficate
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/products/Famoi-Certficate.png
+
+
+- products_famoi_image: permissions
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/products/Famoi-Permissions.png
+
+
+- products_famoi_image: provenance
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/products/Famoi-Lock-Provenance.png
+
+
+- products_famoi_image: rewards
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/products/Famoi-Rewards.png
+
+
+- products_famoi_image: how
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/infinite-loop.png
+
+- products_famoi_image: difference
+  href:
+
+- products_famoi_image: whitepaper
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/products/whitepaper.png
+
+
+- products_famoi_image: network-compare
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/products/Famoi-Network-Compare-one.png
+
+
+- products_famoi_image: network-compare-two
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/Famoi-Network-Compare-two.png
+
+
+- products_famoi_image: network-compare-large
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/Famoi-Network-Compare-one.png
+
+
+- products_famoi_image: journey
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/Famoi-discover.png
+
+
+- products_famoi_image: agriculture
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/agriculture.png
+
+
+- products_famoi_image: pharma
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/pharma.png
+
+- products_famoi_image: enterprise
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/enterprise.png
+
+- products_famoi_image: automotive
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/automotive.png
+
+- products_famoi_image: museums
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/museums.png
+
+- products_famoi_image: developer
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/developer.png
+
+# Products --> Bevare
+
+- products_bevare_image: bevare_logo
+  href:
+
+- products_bevare_image: screen
+  href:
+
+
+# Main Design Thinking
+
+- design_image: design-header
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/design-thinking-header.png
+
+# Design Thinking --> Design Principles Images // Section 1 
+
+- design_image: infinite
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/infinite-loop.png
+
+- design_image: observe
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/observe.png
+
+- design_image: engage
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/engage.png
+
+
+# Design Thinking --> Design Principles Images // Section 2
+
+- design_image: downlands
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/chasm.png
+
+- design_image: loops
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/loop.png
+
+- design_image: contributors
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/advocate.png
+
+
+# Design Thinking --> Design Principles Images // Section 3
+
+- design_image: measure
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/measure.png
+
+- design_image: triangulate
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/triangulate.png
+
+- design_image: diamonds
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/diamond.png"
+
+
+
+# Main Modern Developement
+
+- develop_image: develop-header
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/development-header.png
+
+
+# Modern Developement --> Development Principles Images // Section 1 
+
+- develop_image: workflow
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/workflow.png
+
+- develop_image: distribute
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/distribute-network.png
+
+- develop_image: modular
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/modular.png
+
+# Modern Developement --> Development Principles Images // Section 2
+
+- develop_image: test
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/test-driven-development.png
+
+- develop_image: communicate
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/communication.png
+
+- develop_image: record_version
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/versioning.png
+
+
+# Modern Developement --> Development Principles Images // Section 3
+
+- develop_image: continuous
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/continuous.png
+
+- develop_image: strategy
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/strategy.png
+
+- develop_image: opensource
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/we-love-open-source.png
+
+
+
+
+# Resources
+- resources_image: senryaku
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/cappui-senryaku.png
+
+- resources_image: medium
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/cappui-medium-journal-publication.png
+
+- resources_image: digest
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/cappui-monthly-digest.png
+
+- resources_image: slack
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/cappui-slack-chat-community.png
+
+- resources_image:
+  href:
+
+
+
+# Open mission
+- open_image:
+  href:
+
+- open_image:
+  href:
+
+- open_image:
+  href:
+
+- open_image:
+  href:
+
+
+# About 
+
+- about_image: duncan alistair forbes
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/duncan-alistair-forbes-founder-developer-cappui.png
+
+- about_image: collective head 
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/collective-head.png
+
+- about_image: collective add
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/collective-add.png
+
+
+
+# Work With Us
+- work_image: talks
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/talks.png
+
+- work_image: investors
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/investors-strategic-partners.png
+
+
+
+

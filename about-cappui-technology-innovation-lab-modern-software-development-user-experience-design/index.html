@@ -1,0 +1,142 @@
+---
+layout: default
+---
+     <section  id="about" class="cappui-about section-padding">
+        <div class="container">
+           <div class="row">
+              <div class="col-md-8 col-md-push-2">
+ 
+                <h2 class="h2-blue" >Crafting Great Products. Into Technology Companies</h2>
+                
+                 <h2>From proving the hypothesis of ideas to crafting products beyond Beta. We create companies that are concepted to challenge and change the way people think, live and work. Collaborating with great companies through strategic partnerships as a collective to innovate and change global markets.</h2>
+                 
+                 <img src="//s3-eu-west-1.amazonaws.com/cappui-labs/cappui-about.png">
+
+                 <p>We look to explore emerging technologies and test new ways for companies to use their information that benefit both their company's growth and the overall end-user's experience. Creating new models for improving information accessibility and company transparency. That focus on supply chain infrastructures, internet-of-things, financial data, energy and company reputation systems. Through harnessing a collective of strategic partners that allow us access to resources that help maximise the potential of our companies product development and create products of real value and growth.</p>
+                               
+              </div>
+          </div>
+    </section>
+
+  
+
+
+
+   <section  id="about-main-content" class="about-main-content">
+        <div class="container">
+          
+          <hr></hr>
+
+           <div class="row">
+              <div class="col-md-6 col-md-push-6 middle" >           
+
+                  {% for h in site.data.images %}
+                    {% if h.about_image == "duncan alistair forbes" %}
+                   <img src="{{ h.href }}" title="{{ h.about_image }}" >
+                    {% endif %}
+                  {% endfor %}     
+
+
+              </div> <!-- col-md-6 -->  
+              <div class="col-md-6 col-md-pull-6" >
+
+                  <h2>Duncan founded Cappui back in October 2015. And started web development back in 2006 at his Family Business Forbes Rentals. Alongside their lead graphic designer. This led to him becoming a Python Developer that has stumbled in GoLang, Haskell, Solidity and  </h2>
+
+                  <p>Where he drifted into marketing for some years eventually founding a lifestyle management company. Yet after a few years focusing on this project he decided it was time to Pivot this and move back to what he loves full-time. Crafting and designing software. Duncan loves distributed systems, micro services and more recently never stop discussing decentralised systems. He very much influenced by Japenese philiosphy, art and literature. </p>
+                  
+                <ul class="about-social">
+
+                <li><a href="//github.com/DuncanAForbes"  target="_blank" class="facebook-share"><i class="fa fa-github"></i></a></li>   
+               
+                <li> <a href="//twitter.com/DuncanAForbes"  target="_blank" class="twitter-share"><i class="fa fa-twitter"></i></a></li>
+                
+                <li><a href="//www.linkedin.com/duncanalistairforbes"  target="_blank" class="linkedin-share"><i class="fa fa-linkedin"></i></a></li>  
+
+               </ul>
+            
+              </div> <!-- col-md-6 -->                
+           </div> <!-- row -->
+
+
+          <hr></hr>
+     
+         <div class="row">
+            <div class="col-md-6 middle">
+                  
+                    {% for dev in site.data.images %}
+                      {% if dev.home_image == "recruit" %}
+                     <img src="{{ dev.href }}" title="{{ dev.home_image }}">
+                      {% endif %}
+                    {% endfor %}             
+
+           
+            </div> <!-- col-md-6 middle -->
+            <div class="col-md-6" >
+                
+                <h2>We Will Soon Be Hiring. Stay Notfied!</h2>
+               
+                <p>Over the next six months Cappui will be looking to bring on new team members. To help grow the company and work on the development of of some of our exciting products. If you love Cappui vision and have new entrepreneurial and elite talents in software engineering, computer science, data science, user experience and understanding of GoLang, Python, ReactJS or C++ we would love to stay in touch and build relationship with you. After all we want to build a global company.</p>
+
+                <a href="//angel.co/cappui/jobs/" class="btn btn-ghost btn-accent btn-large" style="text-align: right;"  >Stay Notified</a>
+
+            </div>  <!-- col-md-6 -->
+          </div>
+
+
+          <hr></hr>
+ 
+
+         <div class="row">
+            <div class="col-md-6 col-md-push-6 middle">
+                  
+                   {% for dev in site.data.images %}
+                      {% if dev.work_image == "investors" %}
+                     <img src="{{ dev.href }}" title="{{ dev.work_image }}">
+                      {% endif %}
+                    {% endfor %}   
+           
+            </div> <!-- col-md-6 middle -->
+            <div class="col-md-6 col-md-pull-6" >
+                
+                <h2>Strategic Partnerships & Investors.</h2>
+               
+                <p>Cappui are actively looking for strategic partnerships that complement both yours/our long-term strategies. From resource sharing, R&D Innovation or Investment.</p>
+
+                <a href="/customer-experience-engineering/" class="btn btn-ghost btn-accent btn-large" style="text-align: right;"  >Lets Work Together</a>
+
+            </div>  <!-- col-md-6 -->
+         </div> <!-- row -->
+       
+
+          <hr></hr>
+     
+
+         <div class="row">
+            <div class="col-md-6 middle">
+                  
+                  {% for h in site.data.images %}
+                    {% if h.home_image == "transparent" %}
+                   <img src="{{ h.href }}" title="{{ h.home_image }}" >
+                    {% endif %}
+                  {% endfor %}                
+
+           
+            </div> <!-- col-md-6 middle -->
+            <div class="col-md-6" >
+                
+                <h2>We're On A Mission To Create Greater Openness Within Business</h2>
+               
+                <p>Goverments and regulators are pushing for companies of all sizes to become more open with their end-users and they products they sell to them. It is therefore fast becoming more important for information to be made easily accessible by end-users buying food, electronics, valuable goods to pharamceticals.</p>
+
+                <a href="/committed-building-a-transparent-world/" class="btn btn-ghost btn-accent btn-large" style="text-align: right;"  >Discover Cappui's Open Mission</a>
+
+            </div>  <!-- col-md-6 -->
+         </div> <!-- row -->
+
+            {% include work-with-us-footer.html %} 
+
+       </div> <!-- container -->
+    </section> <!-- cappui-transparency -->
+
+
+

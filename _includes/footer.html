@@ -1,0 +1,124 @@
+    
+
+    <footer>
+        <div class="container" style="width: 85%;">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="footer-links"> 
+                                              
+                           <a href="/" class="logo" alt="Famoi Logo"><img src="http://127.0.0.1:5000/img/small-cappui-logo.png"></a>  
+                     
+                       </div>
+                    </div>
+
+                <div class="col-md-10">
+                    <div class="footer-links">
+                            <ul class="footer-group">
+                               
+                            <!-- Display the footer top left navigation here -->
+                            {% for nav in site.data.navFooterTopLeft %}
+                                  <li><a href="{{ nav.href }}">{{ nav.title }}</a></li>
+                            {% endfor %}
+
+    
+                                
+                            <!-- Display the footer top right navigation here -->
+                            {% for nav in site.data.navFooterTopRight %}
+                                  <li><a href="{{ nav.href }}">{{ nav.title }}</a></li>
+                            {% endfor %}
+
+                                  <li><a href="//github.com/Cappui"  target="_blank" class="facebook-share"><i class="fa fa-github"></i></a></li>   
+                                 
+                                  <li> <a href="//twitter.com/CappuiLabs"  target="_blank" class="twitter-share"><i class="fa fa-twitter"></i></a></li>
+                                  
+                                  <li><a href="//www.facebook.com/CappuiLabs"  target="_blank" class="facebook-share"><i class="fa fa-facebook"></i></a></li>   
+                        </ul>
+                       </div>
+                    </div>
+               </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-links">
+
+                           <p> 
+
+                            <!-- Display the footer top left navigation here -->
+                            {% for nav in site.data.navFooterBottom %}
+                                  <a href="{{ nav.href }}">{{ nav.title }}</a> |
+                            {% endfor %}
+
+                        Crafted with <span class="fa fa-heart pulse2"></span> by <a href="http://cappui.com/">Cappui</a>.</p>
+
+                            <p>Copyright © 2016 <a href="#">Cappui Limited Registered in England Wales as Company No. 08089108</a> 34 Threadneedle Street London EC2R 8AY</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!--  Intercom.io Javascript start -->
+    <script>
+      window.intercomSettings = {
+        app_id: "jlmi3u3r",
+        widget: {
+          activator: "a.letspeak"
+        }   
+      };
+    </script>
+    <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/jlmi3u3r';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+     <!--  Intercom.io Javascript finish  -->
+
+    <!--  Typeform Javascript start  -->
+    <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+    <!--  Typeform Javascript finish  -->
+
+    <!--  External Jquery versions start -->
+     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!--  External Jquery versions finish -->
+
+    <!--  External Fluidbox Jquery versions start -->
+     <script src="//cdnjs.cloudflare.com/ajax/libs/fluidbox/2.0.3/js/jquery.fluidbox.min.js"></script>
+    <!--  External Fluidbox Jquery versions finish -->
+
+    <!--  External Throttle Debounce Jquery versions start -->
+     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js"></script>
+    <!--  External Throttle Debounce Jquery versions finish -->
+
+  
+    {% javascript retina.js/dist/retina %}
+    {% javascript vendor/bootstrap.min.js %}
+    {% javascript scripts %}
+    {% javascript classie/classie.js %}
+    {% javascript jquery-waypoints/lib/jquery.waypoints.min %}
+     
+    {% javascript cbpFWTabs %}
+    <script>
+        (function() {
+
+            [].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+                new CBPFWTabs( el );
+            });
+
+        })();
+     </script>
+    <!--  Internal Javascript finish -->
+
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57065ca1a5a00524"></script>
+
+
+     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+     <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='//www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-68479321-1','auto');ga('send','pageview');
+    </script>
+    <!-- Google Analytics finish -->
+	

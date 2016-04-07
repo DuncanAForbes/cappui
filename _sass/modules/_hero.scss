@@ -1,0 +1,13 @@
+// ==========================================================================
+// Hero
+// ==========================================================================
+
+.hero {
+	height: 435px;
+	background: url('#{$path--rel}/knuth-sorting-searching.jpg'),
+	            linear-gradient(#AFAFB1, #D2D2D2);
+	background-blend-mode: multiply;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: em(50px);
+}
