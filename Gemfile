@@ -10,6 +10,7 @@ gem 'kramdown'
 #
 
 gem "jekyll-assets"
+gem "jekyll-coffeescript"
 
 #
 # Additional gems for jekyll-assets

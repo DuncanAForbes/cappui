@@ -12,6 +12,7 @@ permalink: /:title
 baseurl: /cappui
 
 gems:
+  - jekyll-coffeescript
   - jekyll-sitemap
   - jekyll-assets
   - sass
