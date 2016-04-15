@@ -33,14 +33,14 @@ var gulp = require('gulp'),
     ;
 
 
-var dist              = 'assets/'
+var dist              = '_site/'
     , dirPublic       = '/'
     , distAssets      = './_assets/'
     , distStylesheets = distAssets + 'css/'
     , distJavascripts = distAssets + 'js/'
     , distImages      = distAssets + 'img/'
     , distFont = distAssets + 'fonts/'
-    , deploy          = 'assets/'
+    , deploy          = '_site/'
 
     , src = './'
     , srcStylesheets = src + '_assets/css'
