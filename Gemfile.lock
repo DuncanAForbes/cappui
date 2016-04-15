@@ -59,7 +59,6 @@ GEM
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
-    redcarpet (3.2.3)
     rouge (1.10.1)
     safe_yaml (1.0.4)
     sass (3.4.21)
@@ -84,7 +83,7 @@ DEPENDENCIES
   jekyll (~> 3.0)
   jekyll-assets
   jekyll-sitemap
-  redcarpet
+  kramdown
   sass
   uglifier
 

@@ -9,6 +9,7 @@ port: 5000
 # Build settings
 markdown: kramdown
 permalink: /:title
+baseurl: /cappui
 
 gems:
   - jekyll-sitemap
@@ -30,9 +31,7 @@ defaults:
 
 
 
-assets:
-  compress:
-    css: sass
-    js: uglifier
-
+sass:
+  sass_dir:          _assets
+  style:            :compressed
 
