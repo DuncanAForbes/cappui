@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cappui | We Craft Software Into Great Products.</title>
+    <description>Cappui&#39;s an experimental technology lab that builds commercially viable ventures focused on financial technology (FinTech) and decentralised blockchain applications, plus various other small micro-projects.</description>
+    <link>https://cappui.com/cappui/</link>
+    <atom:link href="https://cappui.com/cappui/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 15 Apr 2016 18:04:54 +0100</pubDate>
+    <lastBuildDate>Fri, 15 Apr 2016 18:04:54 +0100</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+    
+  </channel>
+</rss>
