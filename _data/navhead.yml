@@ -1,14 +1,25 @@
 
 - title: Products
   href: /products-cappui-company-technology-reasearch-development-idea-lab/
+  target:
 
 - title: Design Thinking
   href: /customer-experience-engineering/
+  target:
 
 - title: Development
   href: /modern-application-development/
+  target:
 
 - title: Journal
   href: //journal.cappui.com
+  target: _blank
 
 
+- title: About
+  href: /about-cappui-technology-innovation-lab-modern-software-development-user-experience-design/
+  target:
+
+- title: Resources
+  href: /cappui-resources-open-source-developer-contributers-strategic-partners-community-clients/
+  target: 

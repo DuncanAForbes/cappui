@@ -6,6 +6,8 @@
 
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic);
 
+
+
 /* ==========================================================================
 Typography
 ========================================================================== */
@@ -666,6 +668,135 @@ header {
 }
 
 
+/* -------------------------------- 
+
+Aside
+
+-------------------------------- */
+
+.cd-read-more {
+  /* hide on mobile */
+  display: none;
+  width: 256px;
+  background-color: #f2f2f2;
+  li {
+    counter-increment: articles;
+  }
+  a {
+    display: block;
+    position: relative;
+    padding: 1.6em 1.1em 1.6em 4.3em;
+    &::before, &::after {
+      position: absolute;
+    }
+    &::before {
+      /* article number */
+      content: counter(articles);
+      top: 50%;
+      bottom: auto;
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+      transform: translateY(-50%);
+      left: 1.1em;
+      width: 36px;
+      height: 36px;
+      line-height: 34px;
+      border-radius: 50%;
+      color: #b3b3b3;
+      font-family: Georgia, serif;
+      text-align: center;
+      box-shadow: inset 0 0 0 1px #d9d9d9;
+      -webkit-transition: background-color 0.3s, color 0.3s;
+      -moz-transition: background-color 0.3s, color 0.3s;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    &::after {
+      /* bottom separation - line */
+      content: '';
+      left: 50%;
+      right: auto;
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+      transform: translateX(-50%);
+      bottom: 0;
+      height: 1px;
+      width: 260px;
+      background-color: #d9d9d9;
+    }
+    &.read {
+      em {
+        color: #a6a6a6;
+      }
+      &::before {
+        background-color: #d9d9d9;
+      }
+    }
+    &.reading {
+      em {
+        color: #2a76e8;
+      }
+      svg {
+        display: block;
+      }
+      &::before {
+        background-color: #ffffff;
+        color: #141414;
+      }
+    }
+  }
+  li:last-of-type a::after {
+    display: none;
+  }
+  em {
+    display: block;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    color: #141414;
+    /* truncate text with ellipsis */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    transition: color 0.3s;
+  }
+  b {
+    color: #a6a6a6;
+    font-size: 1.2rem;
+    font-family: Georgia, serif;
+    font-style: italic;
+  }
+  svg {
+    /* this is the filling circle around the article number */
+    display: none;
+    position: absolute;
+    top: 50%;
+    bottom: auto;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 1.1em;
+    stroke: #2a76e8;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .cd-read-more {
+    display: block;
+    position: fixed;
+    top: 20em;
+    left: 0;
+  }
+}
+
+
+
 /* ==========================================================================
 Hero
 ========================================================================== */
@@ -1060,9 +1191,8 @@ Features-stack
 ========================================================================== */
 
 .senryaku-main-content {
-  margin-top: 0px;
   background: #fff no-repeat center center;
-  padding-bottom: 190px;
+  padding: 80px 0 190px 0;
   position: relative;
   i {
     font-family: "Nunito", sans-serif;
@@ -1074,13 +1204,20 @@ Features-stack
     font-style: normal;
   }
   h2, h3 {
-    color: #000;
-    margin: 0 0 20px 0;
+    color: #616161;
+    margin: 25px 0 0px 0;
+  }
+  h2 {
+    font-size: 2em;
+    font-weight: 800;
+    line-height: 1.8em;
   }
   p {
     color: #000; 
-    line-height: 1.8em; 
+    line-height: 2em;
+    font-size: 1.35em;
     text-align: left;
+    margin: 0 0 0 0;
   }
   .btn {
     margin-top: 10px;
@@ -2517,6 +2654,7 @@ Features-stack
     font-size: 1.8em;
     line-height: 1.2; 
     font-weight: 700;
+    text-align: center;
   }
   .btn {
     margin-top: 10px;
@@ -3896,7 +4034,7 @@ Footer
 ========================================================================== */
 
 footer {
-  background-color: #f9f9f9;
+  background-color: #F1F1F1;
   position: relative;
   text-align: center;
   p {

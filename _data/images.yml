@@ -4,10 +4,15 @@
 # Navigation Logo
 
 - nav_logo: nav_logo
-  href: //s3-eu-west-1.amazonaws.com/cappui-labs/cappui-logo-web.png
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/logo-large-full-v4.png
 
 - nav_logo: famoi_nav_logo
   href: //s3-eu-west-1.amazonaws.com/famoi/Famoi-web.png
+
+
+# Footer Logo
+- foot_logo: foot_logo
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/ccappui-logo-colour-500px.png
 
 
 

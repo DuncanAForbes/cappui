@@ -5,9 +5,14 @@
             <div class="row">
                 <div class="col-md-2">
                     <div class="footer-links"> 
-                                              
-                           <a href="/" class="logo" alt="Famoi Logo"><img src="http://127.0.0.1:5000/img/small-cappui-logo.png"></a>  
+                                             
+                        {% for n in site.data.images %}
+                          {% if n.foot_logo == "foot_logo" %}
+                         <a href="/" class="logo" alt="Famoi Logo"><img src="{{ n.href }}" title="{{ n.foot_image }}" ></a>
+                          {% endif %}
+                        {% endfor %}
                      
+                    
                        </div>
                     </div>
 
@@ -77,7 +82,7 @@
     <!--  Typeform Javascript finish  -->
 
     <!--  External Jquery versions start -->
-     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <!--  External Jquery versions finish -->
 
     <!--  External Fluidbox Jquery versions start -->
@@ -106,6 +111,7 @@
         })();
      </script>
     <!--  Internal Javascript finish -->
+
 
     <!-- Go to www.addthis.com/dashboard to customize your tools -->
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57065ca1a5a00524"></script>

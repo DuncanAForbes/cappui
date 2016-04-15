@@ -108,30 +108,7 @@ layout: default
          </div> <!-- row -->
        
 
-          <hr></hr>
-     
-
-         <div class="row">
-            <div class="col-md-6 middle">
-                  
-                  {% for h in site.data.images %}
-                    {% if h.home_image == "transparent" %}
-                   <img src="{{ h.href }}" title="{{ h.home_image }}" >
-                    {% endif %}
-                  {% endfor %}                
-
-           
-            </div> <!-- col-md-6 middle -->
-            <div class="col-md-6" >
-                
-                <h2>We're On A Mission To Create Greater Openness Within Business</h2>
-               
-                <p>Goverments and regulators are pushing for companies of all sizes to become more open with their end-users and they products they sell to them. It is therefore fast becoming more important for information to be made easily accessible by end-users buying food, electronics, valuable goods to pharamceticals.</p>
-
-                <a href="/committed-building-a-transparent-world/" class="btn btn-ghost btn-accent btn-large" style="text-align: right;"  >Discover Cappui's Open Mission</a>
-
-            </div>  <!-- col-md-6 -->
-         </div> <!-- row -->
+        
 
             {% include work-with-us-footer.html %} 
 

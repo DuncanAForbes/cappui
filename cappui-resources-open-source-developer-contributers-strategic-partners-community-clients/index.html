@@ -25,55 +25,6 @@ layout: default
 
            <div class="row">
               <div class="col-md-6 middle" >
-                  
-
-                    {% for s in site.data.images %}
-                      {% if s.resources_image == "senryaku" %}
-                     <img src="{{ s.href }}" title="{{ s.resources_image }}" >
-                      {% endif %}
-                    {% endfor %}    
-
-
-              </div> <!-- col-md-6 -->               
-              <div class="col-md-6" >
-
-                  <h2>Senrayku of Cappui</h2>
-
-                  <p>The Senrayku of Cappui is the core principles of Cappui. And are the philosophies by which we stand-by during our software development process.</p>
-                  
-                  <a href="/senryaku-of-cappui/" class="btn btn-ghost btn-accent btn-large" >Discover More</a>
-
-            
-              </div> <!-- col-md-6 -->               
-           </div> <!-- row -->
-           
-          <hr></hr>
-     
-         <div class="row">
-            <div class="col-md-6 col-md-push-6 middle">
-                  
-                  {% for s in site.data.images %}
-                    {% if s.resources_image == "slack" %}
-                   <img src="{{ s.href }}" title="{{ s.resources_image }}" >
-                    {% endif %}
-                  {% endfor %}      
-           
-            </div> <!-- col-md-6 col-md-push-6 middle -->
-            <div class="col-md-6 col-md-pull-6" >
-                
-                <h2>Developer Slack Community</h2>
-               
-                <p>Our developer slack community is for those interested in contributing to Cappui’s Opensource product development. We would be delighted to have you join.</p>
-
-                <a href="//slack.cappui.com" class="btn btn-ghost btn-accent btn-large" target="_blank" style="text-align: right;"  >Join The Community</a>
-
-            </div>  <!-- col-md-6 col-md-pull-6 -->
-         </div> <!-- row -->
-
-         <hr></hr>
-
-           <div class="row">
-              <div class="col-md-6 middle" >
                    
                  {% for d in site.data.images %}
                     {% if d.resources_image == "digest" %}
@@ -95,35 +46,11 @@ layout: default
               </div> <!-- col-md-6 -->               
            </div> <!-- row -->
            
-          <hr></hr>
-     
-         <div class="row">
-            <div class="col-md-6 col-md-push-6 middle">
-                  
-                 {% for d in site.data.images %}
-                    {% if d.resources_image == "digest" %}
-                   <img src="{{ d.href }}" title="{{ d.resources_image }}" >
-                    {% endif %}
-                  {% endfor %}               
-
-           
-            </div> <!-- col-md-6 col-md-push-6 middle -->
-            <div class="col-md-6 col-md-pull-6" >
-                
-                <h2>We've Writing Our First Whitepaper</h2>
-               
-                <p>Cappui’s monthly digest is an easily digestible roundup of tidbits sharing great new software/apps, technology strategies, podcasts and occasional product updates of ours.</p>
-
-                <a href="/customer-experience-engineering/" class="btn btn-ghost btn-accent btn-large" style="text-align: right;"  >Stay Notfied</a>
-
-            </div>  <!-- col-md-6 col-md-pull-6 -->
-         </div> <!-- row -->
-
 
          <hr></hr>
 
            <div class="row">
-              <div class="col-md-6 middle" >
+              <div class="col-md-6 col-md-push-6  middle" >
                   
                    {% for m in site.data.images %}
                       {% if m.resources_image == "medium" %}
@@ -132,7 +59,7 @@ layout: default
                     {% endfor %}   
 
               </div> <!-- col-md-6 -->               
-              <div class="col-md-6" >
+              <div class="col-md-6 col-md-pull-6" >
 
                   <h2>Medium.com Journal</h2>
 
