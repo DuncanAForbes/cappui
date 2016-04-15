@@ -2,12 +2,12 @@
 title: Cappui | We Craft Software Into Great Products.
 email: daf@famoi.com
 description: Cappui's an experimental technology lab that builds commercially viable ventures focused on financial technology (FinTech) and decentralised blockchain applications, plus various other small micro-projects.
-url: "http://cappui.com" # the base hostname & protocol for your site
+url: "https://cappui.com" # the base hostname & protocol for your site
 twitter_username: CappuiLabs
 port: 5000
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 permalink: /:title
 
 gems:
@@ -16,7 +16,6 @@ gems:
   - sass
   - compass
   - uglifier
-  - redcarpet
 
 #Default settings
 defaults:
