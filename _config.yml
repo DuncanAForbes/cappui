@@ -9,7 +9,6 @@ port: 5000
 # Build settings
 markdown: kramdown
 permalink: /:title
-baseurl: /cappui
 
 gems:
   - jekyll-coffeescript
@@ -31,6 +30,10 @@ defaults:
       category: progamming
 
 
+assets:
+  compress:
+    css: sass
+    js: uglifier
 
 sass:
   sass_dir:          _assets

@@ -74,6 +74,9 @@ $(document).ready(function() {
 				$('header .navicon').css({
 					"top": "13px",
 				});
+				$('header .navicon a.nav-toggle').css({
+					"padding": "15px 35px 16px 0",
+				});
 			} else {
 				$('section.navigation').removeClass('fixed');
 				$('header').css({
@@ -86,6 +89,9 @@ $(document).ready(function() {
 				});
 				$('header .navicon').css({
 					"top": "13px",
+				});
+				$('header .navicon a.nav-toggle').css({
+					"padding": "15px 35px 16px 0",
 				});
 			}
 		});
