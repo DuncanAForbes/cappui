@@ -13,6 +13,10 @@ permalink: /:title
 gems:
   - jekyll-sitemap
   - jekyll-assets
+  - sass
+  - compass
+  - uglifier
+  - redcarpet
 
 #Default settings
 defaults:
