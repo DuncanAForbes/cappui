@@ -127,6 +127,17 @@
   href:
 
 
+# Pratices
+
+- pratices_image: design-thinking
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/design-thinking-pratices.png
+
+#For Partner
+- partner_image: skills
+  href: //s3-eu-west-1.amazonaws.com/cappui-labs/partner-skills.png
+
+
+
 # Main Design Thinking
 
 - design_image: design-header

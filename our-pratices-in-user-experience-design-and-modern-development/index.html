@@ -1,0 +1,60 @@
+---
+
+layout: nofoot
+title: Our Pratices. In User Experience Design And Modern Development. 
+
+---
+ 
+
+    <section id="design-thinking" class="design-thinking-pratices">
+          <div class="container">
+              <div class="row">
+                <div class="col-md-6 middle">
+                   
+                    {% for p in site.data.images %}
+                      {% if p.pratices_image == "design-thinking" %}
+                     <img src="{{ p.href }}" title="{{ p.pratices_image }}">
+                      {% endif %}
+                    {% endfor %}
+
+                </div> <!-- col-md-6 col-md-pull-6 middle -->
+                 <div class="col-md-6">
+                          
+                          <h3>Design Thinking. Scale And Grow A Product By Knowing The End-User.</h3>
+  
+                          <p>Design thinking is the process we go through when developing interactive user experiences. It is our and behavioral model that we use to understand end-users. So that we may deliver great outcomes for them and us. That delight, challenge, engage and scale. For the digital products we craft for ourselves or partners.</p>
+
+                         <a href="/products-cappui-develops-and-concepts-startup-studio/" class="btn btn-ghost btn-accent btn-large"  >Discover Design Thinking</a>
+  
+
+                  </div> <!-- col-md-6 col-md-push-6 -->
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section> <!-- home-hero -->
+
+
+    <section  id="cappui-architect" class="cappui-architect" >
+        <div class="container">
+           <div class="row">
+            <div class="col-md-6 col-md-push-6 middle">
+                  {% for h in site.data.images %}
+                    {% if h.home_image == "archi_infinite" %}
+                   <img src="{{ h.href }}" title="{{ h.home_image }}" >
+                    {% endif %}
+                  {% endfor %}
+            </div> <!-- col-md-6 -->
+             <div class="col-md-6 col-md-pull-6">
+                <h2>Modern Development. Crafting Digital Products For Enterprise Markets.</h2>
+                
+                <p>Our Modern development process is an iterative proceess where we continually test and deploy our software. We craft abstract services that are spread over a distribtued network. Where these services call each other indvidually as small computer programs. To maximise the up-time of our products in production.</p>
+                
+                <a href="/products-cappui-develops-and-concepts-startup-studio/" class="btn btn-ghost btn-accent btn-large"  >Discover Modern Development</a>
+
+            </div> <!-- col-md-6 -->
+          </div> <!-- row -->
+        </div> <!-- container -->
+    </section> <!-- #cappui-architect .cappui-architect -->
+
+
+
+
