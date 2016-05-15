@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cappui | We Craft Software Into Great Products.</title>
-    <description>Cappui&#39;s a startup studio crafting products into companies. Focusing on supply chains, Internet-of-things (IoT), Enterprise Software, Distributed Ledgers and Virtual Reality.</description>
+    <description>Cappui&#39;s a startup studio crafting products into companies. Focusing on enterprise software, distributed ledgers, internet-of-things (IoT), augmented reality, chat bots and emerging technologies.</description>
     <link>https://cappui.com/</link>
     <atom:link href="https://cappui.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 15 May 2016 02:27:55 +0100</pubDate>
-    <lastBuildDate>Sun, 15 May 2016 02:27:55 +0100</lastBuildDate>
+    <pubDate>Sun, 15 May 2016 02:45:33 +0100</pubDate>
+    <lastBuildDate>Sun, 15 May 2016 02:45:33 +0100</lastBuildDate>
     <generator>Jekyll v3.0.4</generator>
     
   </channel>
