@@ -1,44 +1,6 @@
 
-
-jQuery(document).ready(function($){
-	//this is used for the video effect only
-	if( $('.cd-bg-video-wrapper-two').length > 0 ) {
-		var videoWrapper = $('.cd-bg-video-wrapper-two'),
-			mq = window.getComputedStyle(document.querySelector('.cd-bg-video-wrapper-two'), '::after').getPropertyValue('content').replace(/"/g, "").replace(/'/g, "");
-		if( mq == 'desktop' ) {
-			// we are not on a mobile device 
-				video = $('<video loop><source src="//s3-eu-west-1.amazonaws.com/cappui-labs/videos/012081621-big-cargo-ships-containers-tim_H264_420.mp4.mp4" type="video/mp4" /></video>');
-			video.appendTo(videoWrapper);
-			video.get(0).play();
-		}
-	}
-});
-
-
 $(document).ready(function() {
 
-	/***************** Waypoints ******************/
-
-	$('.wp1').waypoint(function() {
-		$('.wp1').addClass('animated fadeInUp');
-	}, {
-		offset: '75%'
-	});
-	$('.wp2').waypoint(function() {
-		$('.wp2').addClass('animated fadeInUp');
-	}, {
-		offset: '75%'
-	});
-	$('.wp3').waypoint(function() {
-		$('.wp3').addClass('animated fadeInRight');
-	}, {
-		offset: '75%'
-	});
-
-
-
-	/***************** Tooltips ******************/
-    $('[data-toggle="tooltip"]').tooltip();
 
 	/***************** Nav Transformicon ******************/
 

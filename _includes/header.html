@@ -9,7 +9,7 @@
                     
                     {% for n in site.data.images %}
                       {% if n.nav_logo == "nav_logo" %}
-                     <a href="/" class="logo" alt="Famoi Logo"><img src="{{ n.href }}" title="{{ n.nav_image }}" ></a>
+                     <a href="/" class="logo"><img src="{{ n.href }}" title="{{ n.nav_image }}"  alt="Famoi Logo"></a>
                       {% endif %}
                     {% endfor %}
 

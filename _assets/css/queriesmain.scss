@@ -1,4 +1,7 @@
 @media screen and (max-width: 1200px) {
+
+  /* Header and Butons */
+
   header {
     margin: 0 auto;
   }
@@ -17,6 +20,12 @@
   .btn {
     font-size: 10px;
   }
+  .btn-home {
+    font-size: 10px;
+  }
+  .btn-design-thinking-pratices {
+    font-size: 10px;
+  }
 
   /* Home Page */
 
@@ -31,7 +40,7 @@
         padding-bottom: 30px;
     }
   }
-  .cappui-about {
+  .cappui-page-intro {
     h2 {
       font-size: 1.6em; 
     }
@@ -42,7 +51,7 @@
       font-size: 1.6em;
     }
   }
-  .cappui-architect {
+  .cappui-white-section {
     h2 { font-size: 2em;
     }
     img {
@@ -50,58 +59,12 @@
         padding-bottom: 30px;
     }
   }
-  .cappui-design-thinking {
-    h2 { font-size: 2em;
-    }
-    img {
-        width: 100% !important;
-        padding-bottom: 30px;
-    }
-  }
-  .cappui-modern-development {
-    h2 { font-size: 2em;
-    }
-    img {
-        width: 100% !important;
-        padding-bottom: 30px;
-    }
-  }
-  .design-thinking-pratices {
-    padding: 180px 0;
+  .cappui-dark-section {
     h2 { font-size: 2em;
     }
     img {
         width: 100% !important;
     }
-  }
-  .cappui-transparency {
-    h2 { font-size: 2em;
-    }
-    img {
-        width: 100% !important;
-        padding-bottom: 30px;
-    }
-  }
-  .cappui-about-team {
-      h2 { font-size: 2em;
-      }
-      p {
-        font-size: 1em;
-      }
-  }
-  .resources {
-      h2 { font-size: 1em;
-      }
-      p {
-        font-size: 0.95em;
-      }
-  }
-  .work-with-us {
-      h2 { font-size: 1em;
-      }
-      p {
-        font-size: 0.95em;
-      }
   }
 }
 
@@ -125,7 +88,7 @@
         padding-top: 0px;
     }
   }
-  .cappui-about {
+  .cappui-page-intro {
     h2 {
       font-size: 1.3em; 
     }
@@ -133,17 +96,17 @@
       font-size: 1.3em;
     }
   }
-  .cappui-architect {
+  .cappui-white-section {
     text-align: center;
     h2 { 
-        font-size: 1.6em;
+        font-size: 1.5em;
     }
     img {
         width: 70% !important;
         padding-bottom: 50px;
     }
   }
-  .cappui-design-thinking {
+  .cappui-dark-section {
     text-align: center;
       h2 { 
         font-size: 1.6em;
@@ -153,42 +116,14 @@
        }
       img {
           width: 70% !important;
-          padding-bottom: 50px;
     }
   }
-  .cappui-modern-development {
-    text-align: center;
-    h2 { 
-        font-size: 1.6em;
-    }
-    img {
-        width: 70% !important;
-        padding-bottom: 50px;
-    }
-  }
-  .design-thining-pratices {
-    padding: 100px 0;
-    text-align: center;
-    h2 { 
-        font-size: 1.6em;
-    }
-    img {
-        width: 70% !important;
-    }
-  }
-  .cappui-transparency {
-    text-align: center;
-    h2 { 
-        font-size: 1.6em;
-    }
-    img {
-        width: 70% !important;
-        padding-bottom: 50px;
-    }
-  }
-  .about-main-content {
+  .cappui-page-content {
     h3.maths {
           font-size: 0.8em;
+    }
+    h2 {
+        font-size: 1.9em;
     }
     .skills-r {
           text-align: right;
@@ -213,9 +148,20 @@
      h2.green {
       font-size: 1.2em;
     }
+     hr {
+      margin-top: 80px;
+      margin-bottom: 80px;
+   }
  }
- .develop {
-    text-align: center;
+ .cappui-resources-content {
+     h3 {
+       font-size: 1.7em;
+       padding-top: 30px;
+    }
+     hr {
+      margin-top: 80px;
+      margin-bottom: 80px;
+    }
   }
   .container {
     img {
@@ -224,16 +170,6 @@
     }
     padding-right: 50px;
     padding-left: 50px;
-  }
-  .famoi-intro {
-    height: 77vh;
-  }
-  .video .famoi-header img {
-    width: 60%;
-    text-align: center;
-  }
-  .hero .hero-content {
-    padding-top: 32%;
   }
   .header-nav {
     position: fixed;
@@ -382,45 +318,6 @@
       }
     }
   }
-  .intro-content {
-    display: inline-block;
-    width: 95%;
-    margin-bottom: 30px;
-  }
-  .howitworks-one h3 {
-    margin-top: 30px;
-    font-size: 21px;
-  }
-  .last {
-    margin: 0;
-  }
-  .features {
-    padding-bottom: 0;
-    .device-showcase {
-      display: none;
-    }
-  }
-  .features-extra .macbook-wrap {
-    display: none;
-  }
-  .features .responsive-feature-img, .features-extra .responsive-feature-img {
-    display: block;
-    width: 85%;
-    margin: 15% auto 0;
-  }
-  .features .responsive-feature-img img, .features-extra .responsive-feature-img img {
-    width: 100%;
-  }
-  .blog-intro {
-    .leftcol {
-      padding: 0 15px;
-      margin-bottom: 15px;
-      border-right: none;
-    }
-    .rightcol {
-      padding: 0 20px;
-    }
-  }
   footer {
     .social-share {
       display: none;
@@ -446,37 +343,6 @@
       border-bottom: dashed 1px #4E566C;
     }
   }
-  .howitworks-one {
-    h3 {
-      margin-top: 10px;
-      font-size: 21px;
-    }
-    p {
-      font-size: 15px;
-      line-height: 30px;
-      color: #fff;
-      padding-bottom: 20px;
-      font-weight: 300;
-    }
-  }
-  .hero-strip {
-    margin-top: 0px;
-    h2 {
-      font-size: 17px;
-    }
-    h3 {
-      font-size: 14px;
-    }
-    p {
-      line-height: 1px;
-      font-size: 10px;
-    }
-  }
-  .about-main-content { 
-    h3.maths {
-     font-size: 0.68em;
-    }
-  }
   footer {
     ul.footer-group li {
       display: block;
@@ -488,43 +354,109 @@
       margin-right: 30px;
     }
   }
-  .about-main-content {
-  h3.small-r {
-      font-size: 1.3em;
+  .cappui-page-content {
+      h3.maths {
+        font-size: 0.68em;
+      }
+      h3.small-r {
+         font-size: 1.3em;
+      }
+      h3.small-l {
+         font-size: 1.3em;
+      }
+      h2.green {
+         font-size: 0.95em;
+      }
+      h2.black {
+        font-size: 0.95em;
+      }
+   }
+}
+
+@media screen and (max-width: 530px) {
+    .cappui-page-content {
+     h3.maths {
+       font-size: 0.51em;
+    }
+     h2 {
+       font-size: 1.5em;
+    }
+     h3 {
+       font-size: 1.7em; 
+    }
   }
-  h3.small-l {
-      font-size: 1.3em;
-  }
-   h2.green {
-    font-size: 0.95em;
-  }
-   h2.black {
-    font-size: 0.95em;
-  }
- }
+  .cappui-page-intro {
+     h2 {
+      font-size: 1.2em;
+     }
+     .h2-blue-two {
+      font-size: 1.5em;
+     }
+     h3 {
+      font-size: 1.7em;
+     }
+   }
 }
 
 @media screen and (max-width: 480px) {
-.btn {
-    font-size: 0.6em;
-}
-.home-hero {
-  h3 {
-    font-size: 1.2em;
-    }
-  }
-  .hero {
-    min-height: 470px;
-    .hero-content {
-      padding-top: 41%;
+    .container {
+      padding-left: 20px;
+      padding-right: 20px;
     }
     .btn {
-      display: block;
-      width: 80%;
-      margin: 0 auto;
-      &:first-of-type {
-        margin-bottom: 20px;
+        font-size: 0.6em;
+    }
+    .home-hero {
+      h3 {
+        font-size: 1.45em;
+        }
       }
+    h1 {
+      font-size: 24px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    h2 {
+      font-size: 18px;
+      margin-top: 12px;
+      margin-bottom: 0px;
+    }
+    h3 {
+      font-size: 14px;
+      margin-top: 12px;
+      margin-bottom: 0px;
+    }
+  .design-development-header {
+    h1 {
+      font-size: 2em;
+    }
+    h3 {
+      font-size: 1.2em;
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+   .btn-large {
+    padding: 10px 30px;
+   }
+   .padding-top-120px {
+     padding-top: 80px;
+    }
+    .btn {
+        font-size: 0.6em;
+    }
+    .home-hero {
+      h3 {
+        font-size: 1.4em;
+        }
+        p {
+         font-size: 1em;
+         line-height: 1.7em;
+        }
+      }
+    p {
+      font-size: 1em;
     }
     h1 {
       font-size: 24px;
@@ -541,54 +473,108 @@
       margin-top: 12px;
       margin-bottom: 0px;
     }
-    p.intro {
-      font-size: 11px;
-      line-height: 29px;
-      margin-top: 7px;
-      margin-bottom: 0px;
+   .cappui-white-section {
+      padding: 100px 0;
+         h2 {
+          font-size: 1.3em;
+          padding-bottom: 10px;
+        }
+     }
+   .cappui-dark-section {
+      padding: 100px 0;
+        h2 {
+          font-size: 1.3em;
+          padding-bottom: 10px;
+      }
+   }
+  .design-dev-white {
+    h2 {
+      font-size: 1.2em;
+    }
+    p {
+      font-size: 1em;
+    }
+   }
+  .design-dev-black {
+    h2 {
+      font-size: 1.2em;
+    }
+    p {
+      font-size: 1em;
+    }
+   }
+  .design-development-header {
+    p {
+      font-size: 0.8em;
+    }
+    .h2-blue-two {
+      font-size: 1.3em;
+   }
+    h2 {
+     font-size: 1em;
     }
   }
-  .about-main-content {
-     h3.maths {
-       font-size: 0.51em;
+  .cappui-page-intro {
+    .h2-blue-two {
+    font-size: 1.45em;
+    }
+    h2 {
+      font-size: 1.2em;
     }
   }
-  .btn-margin-right {
-    margin-right: 0px;
+  .cappui-page-content {
+    padding: 0px 0 150px 0;
+       h3.maths {
+         font-size: 0.51em;
+       }
+       h3 {
+         font-size: 1.45em;
+      }
+       h2 {
+         font-size: 1.45em;
+         padding-bottom: 20px;
+      }
+      h2.h2-small {
+          font-size: 1em !important;
+      }
+      h3.small-r {
+        font-size: 1.2em;
+        padding-bottom: 10px;
+      }
+      h3.small-l {
+        font-size: 1.2em;
+        padding-bottom: 10px;
+      }
+       p.tag {
+        font-size: 0.9em;
+    }
+      h2.green {
+         font-size: 1em;
+         padding-bottom: 2px;
+     }
+      h2.black {
+         font-size: 1em;
+         padding-bottom: 2px;
+     }
   }
-  .features {
-    .device-showcase-left {
-      position: absolute;
-      bottom: -392px;
-      left: 41%;
-      right: auto;
-      transform: translateX(-50%);
+  .cappui-resources-content { 
+    h2, h3 {
+       font-size: 1.2em;
+       padding-top: 12px;
+       padding-bottom: 10px;
     }
-    .ipad-wrap {
-      width: 706px;
-      height: 1002px;
-      background: url("../img/ipad-device.png") no-repeat center center;
-      z-index: 1;
-      background-size: 40%;
-    }
-    .iphone-wrap {
-      width: 304px;
-      height: 617px;
-      background: url("../img/iphone6.png") no-repeat center center;
-      position: absolute;
-      left: 350px;
-      bottom: 129px;
-      z-index: 2;
-      background-size: 40%;
-    }
-    padding-bottom: 0;
   }
-  .design-thinking-header {
+  .design-development-header {
     h1 {
-      font-size: 2em;
+        font-size: 1.8em;
+        padding-top: 30px;
     }
     h3 {
-      font-size: 1.2em;
+        font-size: 1.2em;
+        padding-top: 10px;
+    }
+    p {
+        font-size: 1em;
     }
   }
 }

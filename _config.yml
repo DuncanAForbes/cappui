@@ -1,7 +1,7 @@
 # Site settings
 title: Cappui | We Craft Software Into Great Products.
 email: daf@famoi.com
-description: Cappui's a startup studio crafting products into companies. Focusing on supply chains, Internet-of-things (IoT), Enterprise Software, Distributed Ledgers and Virtual Reality.
+description: Cappui's a startup studio crafting products into companies. Focusing on enterprise software, distributed ledgers, internet-of-things (IoT), augmented reality, chat bots and emerging technologies.
 url: "https://cappui.com" # the base hostname & protocol for your site
 twitter_username: CappuiLabs
 port: 5000
@@ -14,6 +14,7 @@ gems:
   - jekyll-coffeescript
   - jekyll-sitemap
   - jekyll-assets
+  - jekyll-prismic
   - sass
   - compass
   - uglifier
@@ -28,6 +29,8 @@ defaults:
       author: Duncan Alistair Forbes
       layout: "post"
       category: progamming
+
+
 
 
 assets:

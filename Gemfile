@@ -11,6 +11,8 @@ gem 'kramdown'
 
 gem "jekyll-assets"
 gem "jekyll-coffeescript"
+gem "jekyll-prismic"
+
 
 #
 # Additional gems for jekyll-assets
