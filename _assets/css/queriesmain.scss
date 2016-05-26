@@ -32,8 +32,7 @@
   .home-hero {
     padding: 150px 0;
     h3 {
-      font-size: 1.6em;
-      margin-top: 105px;
+      font-size: 2em;
     }  
     img {
         width: 100% !important;
@@ -41,6 +40,15 @@
     }
   }
   .cappui-page-intro {
+    h3 {
+       font-size: 1.5em;
+     }
+     p {
+        font-size: 1em;
+    }
+    p.normal {
+        font-size: 1em;
+      } 
     h2 {
       font-size: 1.6em; 
     }
@@ -77,18 +85,38 @@
     padding: 0px 0px;
     text-align: center;
       h3 {
-       font-size: 1.7em;
+       font-size: 1.5em;
+       margin-top: 100px;
      }
      p {
         font-size: 1em;
-      }  
-      img {
+      } 
+    img {
         width: 70% !important;
         padding-bottom: 50px;
         padding-top: 0px;
     }
+   .box-idea h3 {
+       font-size: 2em;
+   }
+   .box-idea p  {
+       font-size: 1em;
+   }
+   .box-idea p span {
+       font-size: 1.5em;
+   }
   }
   .cappui-page-intro {
+    padding: 100px 0px 0px 0px;
+     h3 {
+       font-size: 1.5em;
+     }
+     p {
+        font-size: 1em;
+      } 
+      p.normal {
+        font-size: 1em;
+      }  
     h2 {
       font-size: 1.3em; 
     }
@@ -155,12 +183,21 @@
  }
  .cappui-resources-content {
      h3 {
-       font-size: 1.7em;
-       padding-top: 30px;
+       font-size: 1.5em;
     }
      hr {
       margin-top: 80px;
       margin-bottom: 80px;
+    }
+  }
+  .design-dev-white {
+     h1.big {
+        display: none;
+    }
+  }
+  .design-dev-black {
+     h1.big {
+        display: none;
     }
   }
   .container {
@@ -426,6 +463,11 @@
       margin-top: 12px;
       margin-bottom: 0px;
     }
+  .cappui-page-intro {
+      h3 {
+        font-size: 1.45em;
+      }
+    }
   .design-development-header {
     h1 {
       font-size: 2em;
@@ -515,6 +557,13 @@
     }
   }
   .cappui-page-intro {
+      h3 {
+        font-size: 1.4em;
+     }
+     p {
+         font-size: 1em;
+         line-height: 1.7em;
+     }
     .h2-blue-two {
     font-size: 1.45em;
     }
@@ -538,22 +587,22 @@
           font-size: 1em !important;
       }
       h3.small-r {
-        font-size: 1.2em;
+        font-size: 1em;
         padding-bottom: 10px;
       }
       h3.small-l {
-        font-size: 1.2em;
+        font-size: 1em;
         padding-bottom: 10px;
       }
        p.tag {
         font-size: 0.9em;
     }
       h2.green {
-         font-size: 1em;
+         font-size: 0.9em;
          padding-bottom: 2px;
      }
       h2.black {
-         font-size: 1em;
+         font-size: 0.9em;
          padding-bottom: 2px;
      }
   }

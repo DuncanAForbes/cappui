@@ -5,30 +5,55 @@ layout: default
     <section class="home-hero">
           <div class="container">
               <div class="row">
-                 <div class="col-md-6 col-md-push-6">
-                        <h3>We Craft Software Into Products. Then Companies. For <a href="/products-cappui-develops-and-concepts-startup-studio/">Ourselves</a> and <a href="/reasearch-and-development-studio-for-corporations/">Partners</a>.</h3>
+                 <div class="col-md-12">
+                        <h3><span>We Craft Software from Ideas Into Digital Products. Then Turn Them Into Companies. As a Startup Studio. For <a href="/products-cappui-develops-and-concepts-startup-studio/">Ourselves</a> and <a href="/reasearch-and-development-studio-for-corporations/">Partners</a>.</span></h3>
                           <hr>
-                          <p>As a startup studio crafting products into companies that compete in global markets. We want to make information more accessible and achieve greater commercial transparency. To maximise operational agility, reputation and growth within businesses or enterprises. </p>
+                          <p>Our aim is to craft two to three products each year. Products where the experience is designed to challenge the end-user's status quo to the way they think and live. We want to make information more accessible, achieve greater commercial transparency and enable information workers to easily create applications. Maximising operational agility, reputation and growth within businesses or enterprises. </p>
   
 
-                  </div> <!-- col-md-6 col-md-push-6 -->
-
-                  <div class="col-md-6 col-md-pull-6 middle">
-                   
-                    {% for h in site.data.images %}
-                      {% if h.home_image == "header_network" %}
-                     <img src="{{ h.href }}" title="{{ h.home_image }}">
-                      {% endif %}
-                    {% endfor %}
-
-                </div> <!-- col-md-6 col-md-pull-6 middle -->
+                  </div> <!-- col-md-12  -->
             </div> <!-- row -->
+           <div class="row">
+                 <div class="col-md-4">
+
+                    <div class="box-idea">
+                      <h3><span>Id &infin;</span></h3>
+                      <hr>
+                      <p><span>Ideation.</span></br>
+                        We develop and prove an ideas hypothesis with prospective customers through infinite cycles. Scrapping 8 out of 10 of our ideas.</p>
+
+                    </div>
+
+                  </div> <!-- col-md-4  -->
+                  <div class="col-md-4">
+
+                    <div class="box-idea">
+                      <h3><span>In  &#10561;</span></h3>
+                      <hr>
+                      <p><span>Incubation.</span></br>
+                        If an idea is proven to be globally commercially viable it is crafted into a product. And tested in iterative cycles with customers early.</p>
+                    </div>
+
+                  </div> <!-- col-md-4  -->
+                  <div class="col-md-4">
+
+                    <div class="box-idea">
+                      <h3><span>Gr &#8599;</span></h3>
+                      <hr>
+                      <p><span>Growth.</span> </br>
+                        The product is monetised and ready to grow. And is let loose from the mothership as a company ideally within 24 - 36 months.</p>
+                    </div>
+
+                  </div> <!-- col-md-4  -->
+            </div>
         </div> <!-- container -->
     </section> <!-- home-hero -->
 
 
+
     <section  id="cappui-architect" class="cappui-white-section" >
         <div class="container">
+         <hr class="hr-margin-50px">
            <div class="row">
             <div class="col-md-6 col-md-push-6 middle">
                   {% for h in site.data.images %}
@@ -49,14 +74,12 @@ layout: default
 
             </div> <!-- col-md-6 -->
           </div> <!-- row -->
-        </div> <!-- container -->
-    </section> <!-- #cappui-architect .cappui-architect -->
+ 
+     
+            <hr class="hr-margin-50px">
 
-
-    <section id="cappui-design-thinking" class="cappui-dark-section blue">
-          <div class="container">
-              <div class="row">
-                <div class="col-md-6 middle ">
+          <div class="row">
+             <div class="col-md-6 middle ">
                    
                     {% for p in site.data.images %}
                       {% if p.pratices_image == "design-thinking" %}
@@ -72,16 +95,15 @@ layout: default
   
                           <p>We craft products where the experience is designed to challenge the end-user's status quo and the way that they think and live. Engineering something original that moulds future generations of buisness.</p>
 
-                         <a href="/customer-experience-engineering/" class="btn-design-thinking-pratices btn-ghost btn-accent btn-large"  >Discover Our Design Principles</a>
+                         <a href="/customer-experience-engineering/" class="btn btn-ghost btn-accent btn-large"  >Discover Our Design Principles</a>
   
 
                   </div> <!-- col-md-6 col-md-push-6 -->
             </div> <!-- row -->
-        </div> <!-- container -->
-    </section> <!-- .cappui-design-thinking -->
-
-    <section  id="cappui-modern-development" class="cappui-white-section">
-        <div class="container">
+   
+ 
+              <hr class="hr-margin-50px">
+          
            <div class="row">
               <div class="col-md-6 col-md-push-6 middle" >
                   
@@ -105,7 +127,7 @@ layout: default
             
               </div> <!-- col-md-6 -->               
            </div> <!-- row -->
-
+         </div>
     </section> <!-- cappui-transparency -->
  
 

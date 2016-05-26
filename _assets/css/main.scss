@@ -6,7 +6,7 @@
 
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic);
 
-
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,300,300italic,400italic,500,500italic,700,700italic);
 
 /* ==========================================================================
 Typography
@@ -17,7 +17,6 @@ p {
   line-height: 2em;
   color: rgba(28, 54, 83, 0.6);
   padding-bottom: 20px;
-  text-align: center;
 }
 
 h1 {
@@ -125,7 +124,7 @@ img {
 
 section {
   &.home-hero {
-    background: #000913;
+    background: #ffffff;
   }
 }
 
@@ -164,7 +163,7 @@ a {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-weight: 300;
   color: rgba(28, 54, 83, 0.6);
   -webkit-text-size-adjust: 100%;
@@ -195,6 +194,15 @@ ul li {
 .padding-top-140px {
   padding-top: 140px;
 }
+
+.padding-top-250px {
+  padding-top: 250px;
+}
+
+.padding-top-400px {
+  padding-top: 400px;
+}
+
 .section-padding {
   padding: 120px 0;
 }
@@ -353,8 +361,8 @@ header {
   a {
     color: #000;
     text-transform: uppercase;
-    font-size: 1.05em;
-    font-weight: 500;
+    font-size: 1em;
+    font-weight: 400;
     &.login {
       margin-right: 15px;
     }
@@ -372,7 +380,7 @@ header {
     width: 60px;
     height: 35px;
     img {
-      width: 35px;
+      width: 45px;
     }
   }
   ul {
@@ -670,23 +678,26 @@ header {
     margin-left: -8px;
     font-style: normal;
   }
+  h1.big {
+    margin-top: 190px;
+    text-align: center;
+    font-size: 15em;
+    color: #FFED52;
+  }
   h2, h3 {
     color: #000;
     font-weight: 700;
     margin: 0 0 20px 0;
-    text-align: left;
   }
   p {
     color: #4E4E4E;
     line-height: 1.8em;
     font-weight: 400;
     font-size: 1.1em;
-    text-align: left;
   }
   img {
     width: 50%;
     padding-bottom: 30px;
-    text-align: left;
   }
   .btn {
     margin-top: 10px;
@@ -721,23 +732,26 @@ header {
     margin-left: -8px;
     font-style: normal;
   }
+  h1.big {
+    margin-top: 190px;
+    text-align: center;
+    font-size: 15em;
+    color: #0FDCB4;
+  }
   h2, h3 {
     color: #fff;
     font-weight: 700;
     margin: 0 0 20px 0;
-    text-align: left;
   }
   p {
     color: #E0E0E0;
     line-height: 1.8em;
     font-weight: 400;
     font-size: 1.1em;
-    text-align: left;
   }
   img {
     width: 50%;
     padding-bottom: 30px;
-    text-align: left;
   }
   .btn {
     margin-top: 10px;
@@ -760,32 +774,43 @@ header {
 ========================================================================== */
 
 .cappui-page-intro {
-  background-position: top;
-  height: 100%;
-  background-repeat: no-repeat;
-  position: relative;
-  background-color: #fff;  
-  padding: 130px 0 0px 0;
-  text-align: center;
+  padding: 150px 0px 0px 0px;
   h2 {
-    color: #000; 
-    font-size: 1.8em;
+    color: #000;
+    font-size: 1.5em;
     line-height: 1.4;
-    font-weight: 300;
+    font-weight: 200;
     text-align: left;
   }
   h3 {
     color: #1A1B63; 
-    font-weight: 500; 
-    font-size: 2.1em;
+    font-weight: 300;
+    font-size: 2.8em;
     line-height: 1.2; 
     text-align: left;
     -webkit-margin-before: 0em;
   }
+   h3 span {
+    line-height: 1.7em;
+    background: #FFED52;
+    -webkit-box-shadow: -10px 0px 0px #FFED52, 10px 0px 0px #FFED52;
+    box-shadow: -10px 0px 0px #FFED52, 10px 0px 0px #FFED52;
+    box-decoration-break: clone;
+  }
   p {
-    color: #000; 
-    line-height: 1.8em; 
+    font-size: 2em;
+    line-height: 1.5em;
+    color: #0D0D3E;
+    padding-bottom: 20px;
+    font-weight: 300;
     text-align: left;
+  }
+  p.normal {
+    color: #000;
+    font-size: 1.19em;
+    line-height: 1.8em;
+    text-align: left;
+    font-weight: 300; 
   }
   .h2-blue {
     color: #1A1B63;
@@ -796,8 +821,10 @@ header {
   }
   .h2-blue-two {
     color: #1A1B63;
-    font-size: 1.8em;
-    line-height: 1.2; 
+    font-size: 2em;
+    background-color: #f2f2f2;
+    padding: 15px;
+    line-height: 1.2;
     font-weight: 700;
     text-align: left;
   }
@@ -830,7 +857,7 @@ header {
   background-repeat: no-repeat;
   position: relative;
   background-color: #fff;  
-  padding: 200px 0;
+  padding: 50px 0px 200px 0px;
   text-align: left;
   h2, h3 {
     color: #1A1B63;
@@ -843,6 +870,10 @@ header {
     color: #000; 
     line-height: 1.8em; 
     text-align: left;
+  }
+  hr.hr-margin-50px {
+      margin-top: 50px;
+      margin-bottom: 50px;
   }
   .btn {
     margin-top: 10px;
@@ -927,13 +958,14 @@ header {
     font-size: 2.1em;
     line-height: 1.2em; 
     text-align: left;
+    padding: 20px 0px 10px 0px;
     -webkit-margin-before: 0em;
   }
   p {
     color: #000; 
     line-height: 1.8em; 
     text-align: left;
-    font-weight: 500;
+    font-weight: 300;
   }
   hr {
     margin-top: 130px;
@@ -977,10 +1009,10 @@ header {
     text-decoration: none;
   }
   h3 {
-    color: #1A1B63; 
-    font-weight: 500; 
+    color: #1A1B63;
+    font-weight: 600;
     font-size: 2.1em;
-    line-height: 1.2em; 
+    line-height: 1.2em;
     text-align: left;
     -webkit-margin-before: 0em;
   }
@@ -1003,9 +1035,9 @@ header {
   }
   h2 {
     color: #1A1B63;
-    font-weight: 400;
-    font-size: 2.1em;
-    line-height: 1.2em; 
+    font-weight: 500;
+    font-size: 1.5em;
+    line-height: 1.3em;
     -webkit-margin-before: 0em;
   }
   h2.h2-small {
@@ -1025,10 +1057,10 @@ header {
     font-size: 1.5em;
   }
   p {
-    color: #000; 
-    line-height: 1.8em; 
+    color: #000;
+    line-height: 1.8em;
     text-align: left;
-    font-weight: 500;
+    font-weight: 300; 
   }
   p.p-white {
     color: #fff;
@@ -1181,14 +1213,19 @@ header {
 ========================================================================== */
 
 .home-hero {
-  padding: 300px 0;
+  padding: 150px 0px 0px 0px;
   h3 {
-    color: #fff; 
-    line-height: 1.2; 
-    font-weight: 700;
-    margin-top: 115px;
-    font-size: 1.9em;
-    text-align: left;
+    font-weight: 300;
+    font-size: 3.2em;
+    line-height: 1em;
+  }
+  h3 span {
+    left: 10px;
+    line-height: 1.7em;
+    background: #FFED52;
+    -webkit-box-shadow: -10px 0px 0px #FFED52, 10px 0px 0px #FFED52;
+    box-shadow: -10px 0px 0px #FFED52, 10px 0px 0px #FFED52;
+    box-decoration-break: clone;
   }
   h4 {
     margin-bottom: 120px;
@@ -1202,17 +1239,50 @@ header {
     background: url("../img/network.png") no-repeat center center;
   }
   p {
-    font-size: 1.30em;
-    line-height: 30px;
-    color: #fff;
+    font-size: 2em;
+    line-height: 1.5em;
+    color: #0D0D3E;
     padding-bottom: 20px;
     font-weight: 300;
     text-align: left;
-    -webkit-font-smoothing: none;
+  }
+  .box-idea {
+    background: #f3f3f3;
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+  }
+  .box-idea p  {
+    font-size: 1.2em;
+    color: #333;
+    text-align: left;
+  }
+  .box-idea p span {
+    font-size: 2em;
+    line-height: 1.5em;
+    color: #0D0D3E;
+    padding-bottom: 20px;
+    font-weight: 300;
+    text-align: left;
+  }
+  .box-idea h3 {
+    font-weight: 300;
+    font-size: 3.2em;
+    line-height: 1em;
+    margin-top: 0px;
+  }
+  .box-idea h3 span {
+    left: 10px;
+    line-height: 1.7em;
+    background: #FFED52;
+    -webkit-box-shadow: -10px 0px 0px #FFED52, 10px 0px 0px #FFED52;
+    box-shadow: -10px 0px 0px #FFED52, 10px 0px 0px #FFED52;
+    box-decoration-break: clone;
   }
   a {
     border-bottom: #fff 2px solid;
     color: #ABABAB;
+    text-decoration: underline;
   }
   a:hover, a:focus {
     color: #0FDCB4;
@@ -1239,7 +1309,7 @@ Footer
 ========================================================================== */
 
 footer {
-  background-color: #F1F1F1;
+  background-color: #EFEFEF;
   position: relative;
   text-align: center;
   p {

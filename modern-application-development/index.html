@@ -31,13 +31,12 @@ title: Modern Application Development
     </section> <!-- .design-development-header -->
 
 
-    <section  id="modern-development-one" class="design-dev-white section-padding">
+    <section  id="design-thinking-one" class="design-dev-white section-padding">
         <div class="container">
-           <div class="row">
-            
-              <div class="col-md-4">
-               
-                    {% for dev in site.data.images %}
+            <div class="row">
+                <div class="col-md-6 text-left pull-left">
+
+                 {% for dev in site.data.images %}
                       {% if dev.develop_image == "workflow" %}
                      <img src="{{ dev.href }}" title="{{ dev.develop_image }}" >
                       {% endif %}
@@ -46,11 +45,15 @@ title: Modern Application Development
                 <h2>Workflow ></h2>
                 
                 <p>Collaboration is key to Cappui’s growth. As technology evolves we must adapt to these changes fast. Being able to easily adopt them into our solutions. Our design process is concerned with simplicity and agile philosophies. Where the end-user comes first. And software must be an interactive and engaging experience.</p>
-            
-            </div>
-            
-            <div class="col-md-4">
                 
+                 </div>
+                 <div class="col-md-6">
+                  <h1 class="big">&#11022;</h1>
+                </div>
+                </div>
+                <div class="row">
+                 <div class="col-md-6 col-md-push-6  text-right">
+  
                    {% for dev in site.data.images %}
                       {% if dev.develop_image == "distribute" %}
                      <img src="{{ dev.href }}" title="{{ dev.develop_image }}" >
@@ -61,76 +64,103 @@ title: Modern Application Development
                
                 <p>The core foundations of our solutions may be architected as distributed systems that communicate through micro-services between one another. For high-availability and scaleability in mind. Or decentralised systems. For our commitment to researching and experimenting with emerging technologies. </p>
 
-            </div>
-            
-            <div class="col-md-4">
-
+                </div>
+                <div class="col-md-6 col-md-pull-6 ">
+                  <h1 class="big">
+                      &#11024;</h1>
+                </div>
+                 </div>
+                <div class="row">
+                <div class="col-md-6 text-left pull-left">
+ 
                    {% for dev in site.data.images %}
                       {% if dev.develop_image == "modular" %}
                      <img src="{{ dev.href }}" title="{{ dev.develop_image }}" >
                       {% endif %}
                     {% endfor %}  
                 
-                <h2>Modular ></h2>
-                
-                <p>Solutions whilst distributed must connect to one another as smaller programs rather than one larger solution. We require our software to be built like a swiss army knife. Built in layers with the option to call indviduals applications in an abstract way</p>
+                  <h2>Modular ></h2>
+                  
+                  <p>Solutions whilst distributed must connect to one another as smaller programs rather than one larger solution. We require our software to be built like a swiss army knife. Built in layers with the option to call indviduals applications in an abstract way</p>
 
-            </div> <!-- .col-md-4 -->
-          </div> <!-- .row -->
-        </div> <!-- .container  -->
-    </section> <!-- .design-dev-white -->
+                </div>
+                <div class="col-md-6">
+                   <h1 class="big">&#11022;</h1>
+                </div>
+            </div>
+        </div>
+    </section>
     
 
-    <section  id="modern-development-two" class="design-dev-black section-padding">
+    <section id="design-thinking-two" class="design-dev-black section-padding">
         <div class="container">
-           <div class="row">
-             <div class="col-md-4">
-
+               <div class="row">
+                 <div class="col-md-6 col-md-push-6  text-right">
+  
                    {% for dev in site.data.images %}
                       {% if dev.develop_image == "test" %}
                      <img src="{{ dev.href }}" title="{{ dev.develop_image }}" >
                       {% endif %}
                     {% endfor %}         
                 
-                <h2>Test ></h2>
-               
-                <p>Part of our agile process and one where we like to remind ourselves no software is perfect. This requires us to continuously go through a process of test driven development (TDD). Where we must test, write code to fail, write production code to pass and then refactor. </p>
+                  <h2>Test ></h2>
+                 
+                  <p>Part of our agile process and one where we like to remind ourselves no software is perfect. This requires us to continuously go through a process of test driven development (TDD). Where we must test, write code to fail, write production code to pass and then refactor. </p>
 
-            </div>
-            <div class="col-md-4">
- 
+                </div>
+                <div class="col-md-6 col-md-pull-6 ">
+                  <h1 class="big">
+                      &#11024;</h1>
+                </div>
+                </div>
+    
+                 <div class="row">
+                 <div class="col-md-6 text-left">
+  
                    {% for dev in site.data.images %}
                       {% if dev.develop_image == "communicate" %}
                      <img src="{{ dev.href }}" title="{{ dev.develop_image }}" >
                       {% endif %}
                     {% endfor %} 
                 
-                <h2>Communicate ></h2>
-               
-                <p>Throughout development we must be able to clearly communicate code that easily communicates to other developers what it does. <b style="color: #138B6D" > #through commenting our work with clarity similar to this. </b>This is all but necessary for future developers to understand our work.</p>
+                  <h2>Communicate ></h2>
+                 
+                  <p>Throughout development we must be able to clearly communicate code that easily communicates to other developers what it does. <b style="color: #138B6D" > #through commenting our work with clarity similar to this. </b>This is all but necessary for future developers to understand our work.</p>
 
-            </div>
-            <div class="col-md-4">
- 
+                </div>
+                <div class="col-md-6">
+                  <h1 class="big">
+                      &#11022;</h1>
+                </div>
+                 </div>
+
+                <div class="row">
+                 <div class="col-md-6 col-md-push-6  text-right">
+  
                    {% for dev in site.data.images %}
                       {% if dev.develop_image == "record_version" %}
                      <img src="{{ dev.href }}" title="{{ dev.develop_image }}" >
                       {% endif %}
                     {% endfor %} 
-                
-                <h2>Record and Version ></h2>
-               
-                <p>We must immutably record the state of our changes and versions in the development cycle of our software. With development, testing, staging and production being clearly defined and moderated. To easily track and audit our work in an effective manner.</p>
- 
-            </div> <!-- .col-md-4 -->
-          </div> <!-- .row -->
-        </div> <!-- .container  -->
-    </section> <!-- .design-dev-black -->
- 
-    <section  id="modern-development-three" class="design-dev-white section-padding">
+                  
+                  <h2>Record and Version ></h2>
+                 
+                  <p>We must immutably record the state of our changes and versions in the development cycle of our software. With development, testing, staging and production being clearly defined and moderated. To easily track and audit our work in an effective manner.</p>
+
+
+                </div>
+                <div class="col-md-6 col-md-pull-6 ">
+                  <h1 class="big">
+                      &#11024;</h1>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <section  id="design-thinking-one" class="design-dev-white section-padding">
         <div class="container">
-           <div class="row">
-              <div class="col-md-4">
+            <div class="row">
+                <div class="col-md-6 text-left pull-left">
 
                    {% for dev in site.data.images %}
                       {% if dev.develop_image == "continuous" %}
@@ -138,39 +168,53 @@ title: Modern Application Development
                       {% endif %}
                     {% endfor %} 
 
-                <h2>Continuous ></h2>
-               
-                <p>An extension of our test driven development and agile strategies. Development processes must be about continuously building, testing and releasing software through automated builds. Making it possible for us to change according to user feedback, market changes and shifts in business strategy.</p>
+                  <h2>Continuous ></h2>
+                 
+                  <p>An extension of our test driven development and agile strategies. Development processes must be about continuously building, testing and releasing software through automated builds. Making it possible for us to change according to user feedback, market changes and shifts in business strategy.</p>
 
-               </div> <!-- .col-md-4 -->
-               <div class="col-md-4">
- 
+                
+                 </div>
+                 <div class="col-md-6">
+                  <h1 class="big">&#11022;</h1>
+                </div>
+                </div>
+                <div class="row">
+                 <div class="col-md-6 col-md-push-6  text-right">
+  
                    {% for dev in site.data.images %}
                       {% if dev.develop_image == "strategy" %}
                      <img src="{{ dev.href }}" title="{{ dev.develop_image }}" >
                       {% endif %}
                     {% endfor %} 
-               
-                <h2>Strategy ></h2>
-               
-                <p>To compete in global markets and craft innovative products that meet long term strategic visions. We must plan short and long term growth strategies that consider the monetisation of Cappui’s and client related projects. Where it is imperative we monitor competitive, industry and emerging technology trends. And how these may impact both Cappui or our clients. </p>
+                 
+                  <h2>Strategy ></h2>
+                 
+                  <p>To compete in global markets and craft innovative products that meet long term strategic visions. We must plan short and long term growth strategies that consider the monetisation of Cappui’s and client related projects. Where it is imperative we monitor competitive, industry and emerging technology trends. And how these may impact both Cappui or our clients. </p>
 
-              </div> <!-- .col-md-4 -->
-              <div class="col-md-4">
 
+                </div>
+                <div class="col-md-6 col-md-pull-6 ">
+                  <h1 class="big">
+                      &#11024;</h1>
+                </div>
+                 </div>
+                <div class="row">
+                <div class="col-md-6 text-left pull-left">
+ 
                    {% for dev in site.data.images %}
                       {% if dev.develop_image == "opensource" %}
                      <img src="{{ dev.href }}" title="{{ dev.develop_image }}" >
                       {% endif %}
                     {% endfor %}
-               
-                <h2>Open Source ></h2>
-               
-                <p>Product development is about being open. Releasing our code to the world. To collaborate and enable those outside of Cappui to contribute to our projects. Through strategic partnerships and indvidual voluntary contribution. Enabling the creation of quality and innovative enterprise grade software that may compete in global markets. </p>
+                 
+                  <h2>Open Source ></h2>
+                 
+                  <p>Product development is about being open. Releasing much of our code to the world. To collaborate and enable those outside of Cappui to contribute to our projects. Through strategic partnerships and indvidual voluntary contribution. Enabling the creation of quality and innovative enterprise grade software that may compete in global markets. </p>
 
-            </div> <!-- .col-md-4 -->
-          </div> <!-- .row -->
-        </div> <!-- .container  -->
-    </section> <!-- .design-dev-white -->
-
+                </div>
+                <div class="col-md-6">
+                </div>
+            </div>
+        </div>
+    </section>
 
