@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://cappui.com/privacy-policy-of-cappui-com/</loc>
+<loc>https://cappui.com/404</loc>
 </url>
 <url>
-<loc>https://cappui.com/cappui-branding-guidelines/</loc>
+<loc>https://cappui.com/products/</loc>
 </url>
 <url>
 <loc>https://cappui.com/customer-experience-engineering/</loc>
@@ -22,10 +22,10 @@
 <loc>https://cappui.com/our-practices/</loc>
 </url>
 <url>
-<loc>https://cappui.com/cappui-accessibilty/</loc>
+<loc>https://cappui.com/privacy-policy-of-cappui-com/</loc>
 </url>
 <url>
-<loc>https://cappui.com/products/</loc>
+<loc>https://cappui.com/cappui-branding-guidelines/</loc>
 </url>
 <url>
 <loc>https://cappui.com/reasearch-and-development-venture-partnerships/</loc>
@@ -46,11 +46,10 @@
 <loc>https://cappui.com/about/</loc>
 </url>
 <url>
-<loc>https://cappui.com/</loc>
+<loc>https://cappui.com/cappui-accessibilty/</loc>
 </url>
 <url>
-<loc>https://cappui.com/404.html</loc>
-<lastmod>2016-07-13T13:20:55+01:00</lastmod>
+<loc>https://cappui.com/</loc>
 </url>
 <url>
 <loc>https://cappui.com/fonts/et-line-font/index.html</loc>
