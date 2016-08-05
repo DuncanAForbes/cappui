@@ -5,10 +5,11 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 <head>
   
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title> 
@@ -31,7 +32,6 @@
 
   <link type="text/css" rel="stylesheet" href="/assets/normalize.min.css">
   <link type="text/css" rel="stylesheet" href="/assets/bootstrap.css">
-  <link type="text/css" rel="stylesheet" href="/assets/jquery.fancybox.css">
   <link type="text/css" rel="stylesheet" href="/assets/main.css">
   <link type="text/css" rel="stylesheet" href="/assets/queriesmain.css">
   <link type="text/css" rel="stylesheet" href="/assets/etline-font.css">
@@ -42,7 +42,16 @@
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fluidbox/2.0.3/css/fluidbox.min.css">
   <link rel="canonical" href="https://cappui.com/">
 
+ <script type="text/javascript">
+      window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
+        heap.load("2962899635");
+  </script>
+  <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/jlmi3u3r';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+
   <script type="text/javascript" src="/assets/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+
+  <script type="text/javascript" src="/assets/typed.js"></script>
 
 
 </head>
@@ -55,13 +64,13 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-        <section class="navigation">
+        <section class="navigation-head" >
             <header>
-                <div class="header-content">
+                <div class="logo">
                     
                     
                       
-                     <a href="/" class="logo"><img src="//s3-eu-west-1.amazonaws.com/cappui-labs/logo-large-full-v4.png" title=""  alt="Famoi Logo"></a>
+                     <a href="/" class="logo"><img src="//s3-eu-west-1.amazonaws.com/cappui-labs/logo-large-full-v4.png" title=""  alt="Cappui Startup Studio Logo"></a>
                       
                     
                       
@@ -203,742 +212,121 @@
                       
                     
 
-                    <div class="header-nav">
-                        <nav>
+                  </div>
 
-                            <ul class="member-actions">
-                               
-                                <!-- Display the top level navigation here -->
-                                
-                                      <li><a href="/" target="" >Home</a></li>
-                                
-                                      <li><a href="/products/" target="" >For Us</a></li>
-                                
-                                      <li><a href="/reasearch-and-development-venture-partnerships/" target="" >For Partners</a></li>
-                                
-                                      <li><a href="/our-practices/" target="" >Our Practices</a></li>
-                                
-                                      <li><a href="/thinklab/" target="" >ThinkLab</a></li>
-                                
-                                      <li><a href="//blog.cappui.com" target="_blank" >Blog</a></li>
-                                
-                                      <li><a href="/about/" target="" >About</a></li>
-                                
-                                      <li><a href="/join/" target="" >Join</a></li>
-                                
-                                      <li><a href="/digest/" target="" >Digest</a></li>
-                                
-                                      <li><a href="/#letspeak" class="letspeak help"><img src="//s3-eu-west-1.amazonaws.com/cappui-labs/help-two.png" ></a>
+                <nav class="cd-primary-nav">
+                    <a href="#cd-navigation" class="nav-trigger">
+                        <span>
+                            <em aria-hidden="true"></em>
+                            Menu
+                        </span>
+                    </a> <!-- .nav-trigger -->
 
-                            </ul> <!-- /member-actions -->
-                       
-                        </nav>
-                    </div> <!-- /header-nav -->
-                    <div class="navicon">
-                        <a class="nav-toggle" href="#"><span></span></a>
-                    </div> <!-- /navicon -->
-                </div> <!-- /header-content -->
+                    <ul id="cd-navigation">
+                      
+                            <!-- Display the top level navigation here -->
+                            
+                                  <li><a href="/" target="" >Home</a></li>
+                            
+                                  <li><a href="/products/" target="" >Products</a></li>
+                            
+                                  <li><a href="/reasearch-and-development-venture-partnerships/" target="" >Venture Partnerships</a></li>
+                            
+                                  <li><a href="/thinklab/" target="" >ThinkLab</a></li>
+                            
+                                  <li><a href="//blog.cappui.com" target="_blank" >Blog</a></li>
+                            
+                                  <li><a href="/about/" target="" >About</a></li>
+                            
+                                  <li><a href="/join/" target="" >Join</a></li>
+                            
+                                  <li><a href="/digest/" target="" >Digest</a></li>
+                            
+
+                                    
+                    </ul>
+                </nav> <!-- .cd-primary-nav -->
             </header> 
-        </section> <!-- /navigation -->      
+        </section>
+   
 
 		      <section class="home-hero">
           <div class="container">
               <div class="row">
                  <div class="col-md-12">
-                        <h3><span>Cappui is a startup studio. A company that searches iteratively through hundreds of ideas. Crafting a few into digital products then software companies. For <a href="/products/">Ourselves</a> and <a href="/reasearch-and-development-venture-partnerships/">Partners</a>.</span></h3>
+  
+                        <h3 id="typed" ></h3>
+ 
+
                           <hr>
                           <p>
-                            Our studio partners with developers and founders or companies through venture partnerships to craft ideas into digital products. Assembling the minimum required team to grow them into independent companies within 36 months. And focusing on Data and AI/Machine Learning. We focus on only a few projects at any one time. Designing and developing new businesses that challenge the status quo. And the way people think and live. Targeting B2B/C or Enterprise markets.</p>
-
-
+                            We develop ventures, co-creating startups in partnership with founders and corporations. Assembling the minimum team required to grow ideas into independent companies within 36 months. We only develop a few projects at any one time.  Designing and developing new businesses that challenge the way people think and live.  <a href="/about/" >Learn more -></a></p>
+ 
                   </div> <!-- col-md-12  -->
             </div> <!-- row -->
-           <div class="row">
-                 <div class="col-md-3">
 
-                    <div class="box-idea light-green">
+
+               <div class="row">
+                 <div class="col-md-3 pad-min">
+
+                    <div class="box-idea white ">
+                      <img src="//s3-eu-west-1.amazonaws.com/cappui-labs/ideation.svg">
                        <p><span>Ideation.</span></p>
-                       <h2><span>Flirting</span></h2>
 
-                       <p>We flirt with hundreds of ideas. Develop and prove their hypothesis with prospective customers through infinite cycles. Scrapping 8 out of 10 of our ideas.</p>
+                       <p class=".dark">We flirt with hundreds of ideas. Develop and prove their hypothesis with prospective customers through infinite cycles. Scrapping 8 out of 10 of our ideas.</p>
 
                     </div>
 
                   </div> <!-- col-md-3  -->
-                  <div class="col-md-3">
+                  <div class="col-md-3 pad-min">
 
-                    <div class="box-idea green">
+                    <div class="box-idea white">
+
+                      <img src="//s3-eu-west-1.amazonaws.com/cappui-labs/experiment.svg">
                       <p><span>Experiment.</span></p>
-                       <h2><span>More Flirting</span></h2>
                         <p>Then choose a few viable ideas. And flirt some more. Experimenting with them. Crafting prototypes And working directly with customers to find a market-fit.</p>
                     </div>
 
                   </div> <!-- col-md-3  -->
-                  <div class="col-md-3">
+                  <div class="col-md-3 pad-min">
 
-                    <div class="box-idea light-blue">
+                    <div class="box-idea white">
+
+                      <img src="//s3-eu-west-1.amazonaws.com/cappui-labs/release.svg">
                       <p><span>Release.</span></p>
-                      <h2><span>In-Relationship</span></h2>
                       <p>Globally commercial viability for an idea is proven. We get in a relationship with it. Craft the product to beta. Testing it in iterative cycles with customers.</p>
                     </div>
 
                   </div> <!-- col-md-3  -->
-                  <div class="col-md-3">
+                  <div class="col-md-3 pad-min">
 
-                    <div class="box-idea lavander">
+                    <div class="box-idea white">
+                      <img src="//s3-eu-west-1.amazonaws.com/cappui-labs/grow.svg">
                       <p><span>Growth.</span></p>
-                      <h2><span>Marrying</span></h2>
                        <p>Product momentum and regular revenue streams are seen. So we commit and marry it. Launching it from the mothership as a company in 24-36 months to grow it.</p>
                     </div>
 
                   </div> <!-- col-md-3  -->
             </div>
-        </div> <!-- container -->
-    </section> <!-- home-hero -->
-
-
-
-    <section id="design-thinking" class="cappui-dark-section light-grey">
-          <div class="container">
-              <div class="row">
-
-
-                <div class="col-md-6">
-
-                    <div class="box-idea white">
-
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                     <img src="//s3-eu-west-1.amazonaws.com/cappui-labs/design-thinking-pratices-new.png" title="design-thinking">
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-
-                      <p><span class="dark" >Design Thinking.</span></p>
-                      <p class="dark" >We craft products where the experience is designed to challenge the end-user's status quo and the way that they think and live. Engineering something original that moulds future generations of buisness.</p>
-
-                      <a href="/customer-experience-engineering/" class="btn-design-thinking-pratices btn-ghost btn-accent btn-large"  >Discover Design Thinking</a>
-
-
-                    </div>
-
-                </div> <!-- col-md-6  -->
-
-
-                <div class="col-md-6">
-
-                    <div class="box-idea white">
-
-               
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                   <img src="//s3-eu-west-1.amazonaws.com/cappui-labs/architect-software.png" title="archi_infinite" >
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-
-                      <p><span class="dark" >Modern Development.</span></p>
-                      <p class="dark" >We craft products where the experience is designed to challenge the end-user's status quo and the way that they think and live. Engineering something original that moulds future generations of buisness.</p>
-
-                      <a href="/customer-experience-engineering/" class="btn-design-thinking-pratices btn-ghost btn-accent btn-large"  >Discover Development Principles</a>
-
-                    </div>
-
-                </div> <!-- col-md-6  -->
-             
-            </div> <!-- row -->
 
             <div class="row">
-             <div class="col-md-6">
+              <div class="col-md-12 text-center padding-top-80px" > 
 
-                    <div class="box-idea white">
 
-                
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                   <img src="//s3-eu-west-1.amazonaws.com/cappui-labs/slack-meetup-cappui.png" title="meetup" >
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
+                  <div class="btn-group" role="group" aria-label="cappui-buttons">
 
-                      <p><span class="dark" >Cappui Thinklab.</span></p>
-                      <p class="dark" >Join Our Slack Community and Meetup group that we recently launched. For Developers, Software/Ops engineers and UX/UI Designers, PHD Candidates/Graduate researchers in Computer Science, Engineering or anything related.</p>
+                       <a href="//cappui.com/thinklab/" class="btn btn-ghost btn-accent btn-large btn-weight" type="button">Join Our Thinklab</a>
 
-                      <a href="//cappui.typeform.com/to/pFZX0g"  class="btn-design-thinking-pratices btn-ghost btn-accent btn-large" target="_blank"  >Request To Join</a>
 
-                    </div>
-                </div> <!-- col-md-6  -->
+                       <a href="https://cappui.com/join/" class="btn btn-ghost btn-accent btn-large btn-weight" type="button">Work With US</a>
 
-             <div class="col-md-6">
 
-                    <div class="box-idea white">
-
-                
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                   <img src="//s3-eu-west-1.amazonaws.com/cappui-labs/hid.png" title="join" >
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-                    
-                  
-
-                      <p><span class="dark" >Hackers-In-Residence.</span></p>
-                      <p class="dark" >Work with us in-house. As as a founder/developer in residence. If you are someone who desires to challenge conventions + improve peoples lives. Be paid to do so. Our Hackers-In-Residence program launches over the next six months.</p>
-
-                      <a href="/join/" class="btn-design-thinking-pratices btn-ghost btn-accent btn-large"  >Learn More</a>
-
-                    </div>
-                </div> <!-- col-md-6  -->
-           </div> <!-- row -->
-
+                  </div> <!-- btn-group -->
+              </div> <!-- .col-md-8 .col-md-push-2 -->
+           </div> <!-- .row -->
+        </div> <!-- cappui-page-intro -->       
         </div> <!-- container -->
-    </section> <!-- .cappui-dark-section dark-blue -->
-
-
+    </section> <!-- home-hero -->
 
 
 
@@ -1156,18 +544,18 @@
                                
                             <!-- Display the footer top left navigation here -->
                             
-                                  <li><a href="/products/">For Us</a></li>
+                                  <li><a href="/products/">Products</a></li>
                             
-                                  <li><a href="/reasearch-and-development-venture-partnerships/">For Partners</a></li>
+                                  <li><a href="/reasearch-and-development-venture-partnerships/">Venture Partnerships</a></li>
                             
-                                  <li><a href="/practices/">Our Practices</a></li>
+                                  <li><a href="/thinklab/">ThinkLab</a></li>
                             
 
     
                                 
                             <!-- Display the footer top right navigation here -->
                             
-                                  <li><a href="/thinklab/">ThinkLab</a></li>
+                                  <li><a href="/join/">Join</a></li>
                             
                                   <li><a href="/about/">About</a></li>
                             
@@ -1220,11 +608,11 @@
       window.intercomSettings = {
         app_id: "jlmi3u3r",
         widget: {
-          activator: "a.letspeak"
+
         }   
       };
     </script>
-    <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/jlmi3u3r';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+
      <!--  Intercom.io Javascript finish  -->
 
     <!--  Typeform Javascript start  -->
@@ -1232,35 +620,30 @@
     <!--  Typeform Javascript finish  -->
 
     <!--  External Jquery versions start -->
-     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script>
+      if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+    </script>
+
+
     <!--  External Jquery versions finish -->
 
-    <!--  External Fluidbox Jquery versions start -->
-     <script src="//cdnjs.cloudflare.com/ajax/libs/fluidbox/2.0.3/js/jquery.fluidbox.min.js"></script>
-    <!--  External Fluidbox Jquery versions finish -->
 
     <!--  External Throttle Debounce Jquery versions start -->
      <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js"></script>
     <!--  External Throttle Debounce Jquery versions finish -->
 
-  
+    <script type="text/javascript" src="/assets/scripts.js"></script>
     <script type="text/javascript" src="/assets/retina.js/dist/retina.js"></script>
     <script type="text/javascript" src="/assets/vendor/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/assets/scripts.js"></script>
-    <script type="text/javascript" src="/assets/classie/classie.js"></script>
-    <script type="text/javascript" src="/assets/jquery-waypoints/lib/jquery.waypoints.min.js"></script>
-     
-    <script type="text/javascript" src="/assets/cbpFWTabs.js"></script>
-    <script>
-        (function() {
 
-            [].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
-                new CBPFWTabs( el );
-            });
 
-        })();
-     </script>
+
     <!--  Internal Javascript finish -->
+
+    <script src="//cdn.jsdelivr.net/jquery.typeit/4.2.3/typeit.min.js"></script>
+
 
 
     <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
