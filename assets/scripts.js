@@ -3,7 +3,7 @@ jQuery(document).ready(function(e){function s(){var s=e(window).scrollTop();d.le
 
 (function() {
  
- var DRIFT_CHAT_SELECTOR = '.drift-open-chat'
+ var DRIFT_CHAT_SELECTOR = '.letspeak'
 
 
  function ready(fn) {
