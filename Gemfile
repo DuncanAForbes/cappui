@@ -12,6 +12,7 @@ gem 'kramdown'
 gem "jekyll-assets"
 gem "jekyll-coffeescript"
 gem "jekyll-prismic"
+gem 'html-proofer'
 
 
 #
